@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome To eBsuccess</title>
+<meta name="keywords" content="eBsuccess，PV Taiwan 2015Solar Monitoring System, website performance monitoring, security management, professional services" />
+<meta name="description" content="網星資訊運用雲端運算的技術，提供太陽能發電監控系統、網站效能管理、大量真實IP的壓力測試及網站內容即時防衛系統，讓客戶得以最少的投資來保障並提昇他的電子化服務。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3804798-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="home.html"><img src="images/logoeng.bmp" alt="eBsuccess Solutions Inc." width="312" height="75" border="0" title="eBsuccess Solutions Inc." /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="sitemap_en.html">Sitemap</a></li>
+              <li><a href="contact_en.html">Contact</a></li>
+              <li><a href="news_en.html">News</a></li>
+              <li><a href="products_en.html">Products</a></li>
+              <li><a href="about_en.html">About us</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="http://www.ebsuccess.com">繁體中文</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+            <li><a href="solarmonitor_en.html" title="Solar Monitoring System">Solar Monitoring</a></li>
+			<li><a href="security_en.html" title="Security Management">Security Management</a></li>
+			<li><a href="monitoring_en.html" title="Performance management">Performance management</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<div id="slider_wrapper">
+        <div class="banner">
+              <div class="banner_content">
+        <div class="slidprev"><span>Prev</span></div>
+        <div class="slidnext"><span>Next</span></div>
+        <div id="slider">
+      	<div id="slide1">
+            <a href="solar_e01.html">
+            <img src="images/slide9.jpg" alt="" title="PV Taiwan Exhibition 2016" /></a>
+          </div>        
+      	<div id="slide2">
+            <a href="solar_e01.html">
+            <img src="images/slide6.jpg" alt="" title="Solar Monitoring System" /></a>
+          </div>
+          <div id="slide3">
+            <a href="security_e01.html">
+            <img src="images/slide7.jpg" alt="" title="eB-Patrol real-time content protection" /></a>
+          </div>
+          <div id="slide4">
+            <a href="#">
+            <img src="images/slide8.jpg" alt="" title="Cross-Platform Mobile App Development" /></a>
+          </div>
+        </div>
+        <div id="myController">
+          <div class="control"><span>1</span></div>
+          <div class="control"><span>2</span></div>
+          <div class="control"><span>3</span></div>
+          <div class="control"><span>4</span></div>          
+        </div>
+    </div>
+      </div>
+      </div>
+  
+<div id="content_wrap">
+      <div id="content">
+        <div class="imin">
+			<div class="pot">
+			<div class="img"><a href="solar_e02.html" target="_self"><img title="Solart Alert System" alt="Solart Alert System" src="images/imin_banner_7.jpg" width="306" height="120"></a></div>
+			<div class="txt">
+			<h4><a href="solar_e02.html">Solar Alert System</a></h4>
+			 <p>It is suitable for residential areas to ensure solar power system and reduce maintenance costs. It is able to send an instantaneous alert if problems arise.</p>
+			</div>
+			</div>
+						<div class="pot">
+			<div class="img"><a href="security_e01.html" target="_self"><img title="eB-Patrol free trial" alt="eB-Patrol 免費試用版" src="images/imin_banner_6.jpg" width="306" height="120"></a></div>
+			<div class="txt">
+			<h4><a href="security_e01.html" target="_self">eB-Patrol Free Trial</a></h4>
+			 <p>eB-Patrol is a real-time content monitoring, recovery and security tracing system. Sign up today for a free trial of eB-Patrol solutions.</p>
+			</div>
+			</div>
+						<div class="pot">
+			<div class="img"><a href="monitoring_e01.html" target="_self"><img title="Test your website" alt="Test your website" src="images/imin_banner_4.jpg" width="306" height="120"></a></div>
+			<div class="txt">
+			<h4><a href="monitoring_e01.html" target="_self">Test your website</a></h4>
+			 <p>MonitorSP emulates end-user experience proactively, measuring availability, reliability and response time of your website from multiple locations.</p>
+			</div>
+			</div>
+			</div>
+        
+      </div>
+    </div>
+
+<div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about_en.html" target="_self">About eBsuccess</a></dt>
+					<dd><a href="achievements_en.html" target="_self">Achievements</a></dd>
+					<dd><a href="news_en.html" target="_self">News</a></dd>
+					<dd><a href="contact_en.html" target="_self">Contact us</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products_en.html" target="_self">Products</a></dt>
+					<dd><a href="solarmonitor_en.html" target="_self">Solar Monitoring</a></dd>
+                    <dd><a href="monitoring_en.html" target="_self">Performance Management</a></dd>
+                    <dd><a href="security_en.html" target="_self">Security Management</a></dd>
+                    <dd><a href="#" target="_self">Professional Services</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="#" target="_self">Solutions</a></dt>
+					<dd><a href="#" target="_self">Financial Services</a></dd>
+					<dd><a href="#" target="_self">High Technology</a></dd>
+					<dd><a href="#" target="_self">Government</a></dd>
+      </dl>
+     
+      <dl>
+        <dt><a href="#" target="_self">Events</a></dt>
+		<dd><a href="#" target="_self">Test your website</a></dd>
+		<dd><a href="#" target="_self">eB-Patrol free trial</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap_en.html" target="_self">Sitemap</a></dt>
+
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+Call us : +886-2-27932557 | +886-3-5600057 <br />
+Email:<a href="mailto:marketing@ebsuccess.com"> <font color="#BFBFBF">
+marketing@ebsuccess.com</font></a></div>
+<div class="copyright">Copyright &copy; 2016 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy_en.html">Privacy Policy</a> | <a style="text-decoration: none"a href="terms_en.html">Terms of Use</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

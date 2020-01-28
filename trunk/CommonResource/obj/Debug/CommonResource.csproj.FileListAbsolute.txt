@@ -1,0 +1,24 @@
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.dll.config
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.pdb
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.xml
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.dll
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.pdb
+C:\Users\eb_julian\Desktop\source code\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.csprojResolveAssemblyReference.cache
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.dll.config
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\CommonResource.pdb
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.xml
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.csprojResolveAssemblyReference.cache
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.dll
+C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.pdb

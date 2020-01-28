@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ebWebsiteModelStoreContainer" CdmEntityContainer="ebWebsiteEntities">
+    <EntitySetMapping Name="CustomerTrial_Form">
+      <EntityTypeMapping TypeName="ebWebsiteModel.CustomerTrial_Form">
+        <MappingFragment StoreEntitySet="CustomerTrial_Form">
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Cellphone" ColumnName="Cellphone" />
+          <ScalarProperty Name="Telephone" ColumnName="Telephone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustomerTrial_Info">
+      <EntityTypeMapping TypeName="ebWebsiteModel.CustomerTrial_Info">
+        <MappingFragment StoreEntitySet="CustomerTrial_Info">
+          <ScalarProperty Name="InfoContent" ColumnName="InfoContent" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ecommerce">
+      <EntityTypeMapping TypeName="ebWebsiteModel.Ecommerce">
+        <MappingFragment StoreEntitySet="Ecommerce">
+          <ScalarProperty Name="MetaGenerator" ColumnName="MetaGenerator" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="HtmlContent" ColumnName="HtmlContent" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="File">
+      <EntityTypeMapping TypeName="ebWebsiteModel.File">
+        <MappingFragment StoreEntitySet="File">
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="MimeType" ColumnName="MimeType" />
+          <ScalarProperty Name="File1" ColumnName="File" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FooterInfo">
+      <EntityTypeMapping TypeName="ebWebsiteModel.FooterInfo">
+        <MappingFragment StoreEntitySet="FooterInfo">
+          <ScalarProperty Name="TermUrl" ColumnName="TermUrl" />
+          <ScalarProperty Name="PrivacyUrl" ColumnName="PrivacyUrl" />
+          <ScalarProperty Name="CopyrightInfo" ColumnName="CopyrightInfo" />
+          <ScalarProperty Name="HsinchuContactInfo" ColumnName="HsinchuContactInfo" />
+          <ScalarProperty Name="TaipeiContactInfo" ColumnName="TaipeiContactInfo" />
+          <ScalarProperty Name="GoogleAnalytics" ColumnName="GoogleAnalytics" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HomeBanner">
+      <EntityTypeMapping TypeName="ebWebsiteModel.HomeBanner">
+        <MappingFragment StoreEntitySet="HomeBanner">
+          <ScalarProperty Name="FileId" ColumnName="FileId" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MainMenu">
+      <EntityTypeMapping TypeName="ebWebsiteModel.MainMenu">
+        <MappingFragment StoreEntitySet="MainMenu">
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="IsRoot" ColumnName="IsRoot" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="FuntionName" ColumnName="FuntionName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meta">
+      <EntityTypeMapping TypeName="ebWebsiteModel.Meta">
+        <MappingFragment StoreEntitySet="Meta">
+          <ScalarProperty Name="CoverImage" ColumnName="CoverImage" />
+          <ScalarProperty Name="Generator" ColumnName="Generator" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PageId" ColumnName="PageId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="ebWebsiteModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="Abstract" ColumnName="Abstract" />
+          <ScalarProperty Name="Published" ColumnName="Published" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="FileId" ColumnName="FileId" />
+          <ScalarProperty Name="NewsContent" ColumnName="NewsContent" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageContent">
+      <EntityTypeMapping TypeName="ebWebsiteModel.PageContent">
+        <MappingFragment StoreEntitySet="PageContent">
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="Enable" ColumnName="Enable" />
+          <ScalarProperty Name="DataOrder" ColumnName="DataOrder" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+          <ScalarProperty Name="HtmlContent" ColumnName="HtmlContent" />
+          <ScalarProperty Name="PageTitle" ColumnName="PageTitle" />
+          <ScalarProperty Name="ContentId" ColumnName="ContentId" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageContent_Mapping">
+      <EntityTypeMapping TypeName="ebWebsiteModel.PageContent_Mapping">
+        <MappingFragment StoreEntitySet="PageContent_Mapping">
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="HtmlContent" ColumnName="HtmlContent" />
+          <ScalarProperty Name="MainPage" ColumnName="MainPage" />
+          <ScalarProperty Name="Enable" ColumnName="Enable" />
+          <ScalarProperty Name="ContentName" ColumnName="ContentName" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="ContentId" ColumnName="ContentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PageUnit">
+      <EntityTypeMapping TypeName="ebWebsiteModel.PageUnit">
+        <MappingFragment StoreEntitySet="PageUnit">
+          <ScalarProperty Name="BannerId" ColumnName="BannerId" />
+          <ScalarProperty Name="Enable" ColumnName="Enable" />
+          <ScalarProperty Name="HtmlContent" ColumnName="HtmlContent" />
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="ebWebsiteModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Trial" ColumnName="Trial" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TopMenu">
+      <EntityTypeMapping TypeName="ebWebsiteModel.TopMenu">
+        <MappingFragment StoreEntitySet="TopMenu">
+          <ScalarProperty Name="CustomUrl" ColumnName="CustomUrl" />
+          <ScalarProperty Name="Action" ColumnName="Action" />
+          <ScalarProperty Name="Controller" ColumnName="Controller" />
+          <ScalarProperty Name="FunctionName" ColumnName="FunctionName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="ebWebsiteModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TemporaryPageContent">
+      <EntityTypeMapping TypeName="ebWebsiteModel.TemporaryPageContent">
+        <MappingFragment StoreEntitySet="TemporaryPageContent">
+          <ScalarProperty Name="MetaTitle" ColumnName="MetaTitle" />
+          <ScalarProperty Name="MetaKeywords" ColumnName="MetaKeywords" />
+          <ScalarProperty Name="MetaDescription" ColumnName="MetaDescription" />
+          <ScalarProperty Name="HtmlContent" ColumnName="HtmlContent" />
+          <ScalarProperty Name="ActionName" ColumnName="ActionName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

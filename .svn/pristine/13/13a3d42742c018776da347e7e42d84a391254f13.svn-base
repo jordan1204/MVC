@@ -1,0 +1,32 @@
+﻿@model ebSuccessWebSite.Models.PageMenuModel
+
+@helper RenderMenuItem(ebSuccessWebSite.Models.PageMenuModel item)
+{
+
+    <dt @(item.Enable ? "class=on" : "") ><a href="@Url.Action("Page","Home",new {UnitId = item.UnitId,ContentId = item.ConentId})">@item.Name</a></dt>
+    if (item.SubMenu.Count > 0 && item.Enable)
+    {
+        <span>
+            @foreach (var oneItem in item.SubMenu)
+            {
+                @RenderSubItem(oneItem)
+            }          
+        </span>
+    }
+}
+@helper RenderSubItem(ebSuccessWebSite.Models.PageMenuModel item)
+{
+    <dd @(item.Enable ? "class=on" : "")><a href="@Url.Action("Page","Home",new { UnitId = item.UnitId,ContentId = item.ConentId,PageId = item.PageId })">@item.Name</a></dd>
+}
+
+<div id="content_left">
+    <div id="assinavi">
+        <h1>@Model.Name</h1>
+        <dl>
+            @foreach(var oneItem in Model.SubMenu)
+            {
+                @RenderMenuItem(oneItem)
+            }
+        </dl>
+    </div>
+</div>

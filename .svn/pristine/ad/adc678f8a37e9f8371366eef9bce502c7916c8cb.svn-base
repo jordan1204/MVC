@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星資訊 | Benchmark網站效能指標</title>
+<meta name="keywords" content="網星資訊，eBsuccess，太陽能電力監控，電子化服務效能管理，資訊安全，專業資訊服務，Mobile APP，網站異常監測，防網頁篡改，網站效能指標，Benchmark" />
+<meta name="description" content="網星資訊的Benchmark網站效能指標目的是協助業者提升網站服務的品質，從分佈各地的量測點(agent)，從使用者的角度進行24x7監測，連至受測網站，量測網站的反應速度(response time)、下載時間(download time)及可用率(availability)，這些效能數據有助掌握網站效能，從而優化網站服務品質。 " />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="news.html">最新消息</a></li>
+              <li><a href="benchmark.html">Benchmark</a></li>
+              <li><a href="contact.html">聯絡資訊</a></li>
+              <li><a href="services.html">服務與解決方案</a></li>
+              <li><a href="products.html">產品資訊</a></li>
+              <li><a href="about.html">關於網星</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["ID"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="en/home.html">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全">資訊安全</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+            <li><a href="solarmonitor.html" title="太陽能">太陽能</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>Benchmark</h1>
+              <dl>
+                <dt><a href="benchmark.html">網站效能指標數據</a></dt>
+                <dt><a href="description.html">效能指標說明</a></dt>
+                <dt class="on"><a href="industry.html">各行業的網站效能指標</a></dt>
+                <span>
+                <dd><a href="ind_01.html">直轄市政府</a></dd>
+                <dd><a href="ind_02.html">房仲業</a></dd>                
+                <dd><a href="ind_03.html">旅遊業</a></dd>    
+                <dd><a href="ind_04.html">百貨業</a></dd>                    
+                <dd class="on"><a href="ind_05.html">電子商務</a></dd>                    
+                <dd><a href="ind_06.html">電信業</a></dd>                                
+                </span>                
+              </dl>
+				<a href="mailto:marketing@ebsuccess.com">
+<img src="../content/images/email_info1.png"></a>                 
+            </div>
+            <!-- Sidebar Banner -->
+            <span class="sidebarbanner"><a href="event_01.html"><img src="../content/images/sidebar_banner_2.jpg" width="218" height="60" /></a></span>
+            <!-- Sidebar Banner end-->
+        
+                      </div>
+             
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/bm_banner2.png" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="benchmark.html">Benchmark</a></li>
+                <li>各行業的網站效能指標</li>
+              </ul>
+            </div>
+            
+            <h2>電子商務</h2>
+
+			<p>&nbsp;</p>        
+            <p>&nbsp;</p>
+			<p><font color="#003366">監測內容︰各電子商務的網站首頁</font></p>
+			<p><font color="#003366">資料日期︰2014/11/16 09:00 ~ 2014/11/17 08:00</font></p>
+			<p><font color="#003366">網站名稱排列︰依照網站URL的英文字母所排列</p>
+			<div class="benchmark_content">
+                <div class="benchmarklistbg">
+        <table width="695" border="0" cellspacing="0" cellpadding="0" bgcolor="#003399">
+		  <tr>
+			<td width="200" height="40" class="txttitle"><font face="微軟正黑體">&nbsp;</font>網站名稱</td>
+			<td width="169" class="txttitle">回應時間<p>Response Time (秒)</td>
+			<td width="182" class="txttitle">下載時間 
+			<p>Download Time (秒)</td>
+			<td width="144" class="txttitle">可用率 
+			<p>Availability (%)</td>
+		  </tr>
+		
+		  <tr class="tr_odd">
+			<td class="txt01">7net雲端超商</td>
+			<td class="txt01">0.057</td>
+			<td class="txt01">1.016</td>
+			<td class="txt02" style="text-align: center">100</td>
+		  </tr>
+				
+		  <tr class="tr_odd">
+			<td class="txt01">ASAP閃電購物網</td>
+			<td class="txt01">0.093</td>
+			<td class="txt01">0.938</td>
+			<td class="txt02" style="text-align: center">100</td>
+		  </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">東森購物網</td>
+		    <td class="txt01">0.129</td>
+		    <td class="txt01">1.74</td>
+		    <td class="txt02" style="text-align: center">100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">GOHAPPY快樂購物網</td>
+		    <td class="txt01">0.05</td>
+		    <td class="txt01">1.241</td>
+		    <td class="txt02" style="text-align: center">100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">momo購物網</td>
+		    <td class="txt01">0.069</td>
+		    <td class="txt01">0.791</td>
+		    <td class="txt02">
+			<p style="text-align: center">100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">Payeasy</td>
+		    <td class="txt01">0.058</td>
+		    <td class="txt01">0.844</td>
+		    <td class="txt02" style="text-align: center">
+			100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">大買家網路量販店</td>
+		    <td class="txt01">0.129</td>
+		    <td class="txt01">1.815</td>
+		    <td class="txt02" style="text-align: center">
+			100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">PChome線上購物</td>
+		    <td class="txt01">0.084</td>
+		    <td class="txt01">0.309</td>
+		    <td class="txt02" style="text-align: center">
+			100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">udn買東西</td>
+		    <td class="txt01">0.107</td>
+		    <td class="txt01">1.906</td>
+		    <td class="txt02">
+			<p style="text-align: center">97.69</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">Yahoo奇摩購物中心</td>
+		    <td class="txt01">0.255</td>
+		    <td class="txt01">0.647</td>
+		    <td class="txt02" style="text-align: center">
+			100</td>
+		    </tr>
+				
+		  <tr class="tr_odd">
+		    <td class="txt01">森森購物網</td>
+		    <td class="txt01">0.051</td>
+		    <td class="txt01">0.053</td>
+		    <td class="txt02" style="text-align: center">
+			100</td>
+		    </tr>
+				
+		  </table>  
+              </div>
+<p>(1) 回應時間(Response Time)：指網站伺服器回應使用者請求所需的時間，其中包括從使用者所在位置連到網站伺服器所需的網路時間。</p>
+<p>(2) 下載速度(Download Time)：指成功完成下載網頁所需的時間。 </p>
+<p>(3) 可用率(Availability)：指成功完成的測試佔總測試次數的百分比。</p>                     
+      </div>
+            </div>
+            <!-- Benchmark content end-->
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+			
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2017 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</font>
+</body>
+</html>

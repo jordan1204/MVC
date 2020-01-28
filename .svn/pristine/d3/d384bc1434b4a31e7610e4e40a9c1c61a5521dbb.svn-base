@@ -1,0 +1,330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星產品 | 行動應用軟體App委外開發服務</title>
+<meta name="keywords" content="網星資訊，eBsuccess，專業資訊服務，行動應用軟體App委外開發服務, Mobile APP，手機App, 平板電腦App，IOS，Android，Window phone，APPLE APP STORE，Google Android Play Market" />
+<meta name="description" content="網星資訊擁有行動App應用軟體與雲端服務兩類產品的設計與開發經驗，我們專注iOS, android等的應用軟體開發，可交互應用兩類產品的研發經驗，從App概念的發想、美術設計、程式開發等，皆有專業的人才提供最適切的服務。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+
+
+<script src="js/bootstrap.js"></script>
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+<!--<link href="bootstrap.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="news.html">最新消息</a></li>
+              <li><a href="benchmark.html">Benchmark</a></li>
+              <li><a href="contact.html">聯絡資訊</a></li>
+              <li><a href="services.html">服務與解決方案</a></li>
+              <li><a href="products.html">產品資訊</a></li>
+              <li><a href="about.html">關於網星</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="en/home.html">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全管理">資訊安全管理</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+            <li><a href="solarmonitor.html" title="太陽能監控雲端平台">太陽能監控雲端平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>產品資訊</h1>
+              <dl>
+                <dt><a href="solarmonitor.html">太陽能監控雲端平台</a></dt>
+                <dt><a href="monitoring.html">電子化服務效能管理</a></dt>
+                <dt><a href="security.html">資訊安全管理</a></dt>
+                <dt class="on"><a href="professional.html">專業資訊服務</a></dt>
+                <span>
+                <dd><a href="professional.html">企業應用系統開發</a></dd>
+                <dd><a href="professional.html">效能調校服務</a></dd>
+                <dd><a href="professional.html">專業資訊顧問服務</dd>
+				<dd class="on"><a href="prof_01.html">行動應用軟體App開發服務</a></dd>
+                </span>
+              </dl>
+			&nbsp;<p><a href="mailto:marketing@ebsuccess.com">
+<img src="../content/images/contact.png"></a>                     
+            </div>
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/product_banner.JPG" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="products.html">產品資訊</a></li>
+                <li><a href="professional.html">專業資訊服務</a></li>
+                <li>行動應用軟體App開發服務</li>
+              </ul>
+            </div>
+            
+            <h2>行動應用軟體App開發服務</h2>
+            
+            
+                        <!-- Product content -->
+            <div class="product_content">
+            				
+                            <!-- Tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#overview" data-toggle="tab">服務導覽</a></li>
+					<li class=""><a href="#features" data-toggle="tab">App作品介紹(應用程式類別)</a></li>
+					<li class=""><a href="#benefits" data-toggle="tab">App作品介紹(遊戲與娛樂類別)</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="overview">
+						<p>網星資訊擁有行動App應用軟體與雲端服務兩類產品的設計與開發經驗，可交互應用兩類產品的研發經驗，從App概念的發想、美術設計、程式開發等，皆有專業的人才提供最適切的服務。透過客戶需求訪談，網星資訊能規劃最適合的產品功能和介面流程。
+</p>
+						<p><span style="font-weight: 700">
+						<font color="#003366">專業能力</font></span></p>
+<ul class="point">
+<li>網星資訊在多年的軟體開發經驗中，除了累積豐厚軟體開發的實力外，更因為專注在使用者相關應用系統的開發，而擁有豐富人機介面設計的經驗與能量，也已經在各個專案與產品中，將這些能量轉化成設計出更適合使用者操作的軟體。 
+</li>
+<li>網星資訊的開發團隊位於台灣，專精於iOS及Android應用程式與雲端的整合解決方案，可將手機端與雲端做整合，並更進一步與現有的社群服務做結合，包含Facebook、Twitter、Flickr、YouTube...等，做一個完整的結合，提供用戶更佳的使用者經驗。 
+</li>
+<li>目前，已成功開發多款行動App，都獲得口碑，豐富的開發經驗將會是為您打造行動App的最佳保障。 </li>
+</ul>
+					</div>
+
+					<div class="tab-pane fade" id="features">
+						<p>
+						<p><font color="#003366"><b>&nbsp;App作品介紹</b></font></p>
+						<table border="0" width="100%" id="table1">
+							<tr>
+								<td colspan="2" background="../content/images/tit_bg.jpg">
+								<b><font color="#FFFFFF">&nbsp;應用程式類別</font></b></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#CCCCCC" valign="top">
+								<p align="center">
+								<font color="#000000">&nbsp;可客製化的桌面</font><p align="center">
+								<img border="0" src="../content/images/product/app01.png" width="150" height="103"></td>
+								<td width="71%" bgcolor="#CCCCCC" valign="top">
+								<font color="#000000">設計專屬與可客制化的桌面，按照客戶的需求，設計適合的操作介面，更可內建不同的App及生活資訊功能(如天氣、重要事項提醒等)。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#FFFFCC" valign="top" align="center">
+								<font color="#000000">&nbsp;傳承筆記</font><p>
+								<img border="0" src="../content/images/product/app02.png" width="50" height="50"></td>
+								<td width="71%" bgcolor="#FFFFCC" valign="top">
+								<font color="#000000">透過文字、影像、聲音及圖片，紀錄自己的歷史、生活故事、智慧小語等等，再彙整成冊與朋友們分享。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#CCCCCC" valign="top" align="center">
+								<font color="#000000">&nbsp;相簿管理家</font><p>
+								<font color="#000000">&nbsp;<img border="0" src="../content/images/product/app03.png" width="50" height="50"></font></td>
+								<td width="71%" bgcolor="#CCCCCC" valign="top">
+								<font color="#000000">透過文字、影像、聲音及圖片，紀錄自己的歷史、生活故事、智慧小語等等，再彙整成冊與朋友們分享。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#FFFFCC" valign="top" align="center">
+								<font color="#000000">&nbsp;閱讀輔助放大鏡</font><p>
+								<font color="#000000">&nbsp;<img border="0" src="../content/images/product/app04.png" width="50" height="50"></font></td>
+								<td width="71%" bgcolor="#FFFFCC" valign="top">
+								<font color="#000000">設計了利用大畫面呈現的軟體放大鏡，幫助使用者輕鬆的閱讀書報
+								。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#CCCCCC" valign="top" align="center">
+								<font color="#000000">&nbsp;便條計算機</font><p>
+								<font color="#000000">&nbsp;<img border="0" src="../content/images/product/app05.png" width="50" height="50"></font></td>
+								<td width="71%" bgcolor="#CCCCCC" valign="top">
+								<font color="#000000">特別設計的大尺寸數字螢幕與按鍵之外，還提供手寫便條紙來輔助記憶，方便暫時紀錄計算結果。其更加入按鍵的語音，來增強對數字的識別
+								。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#FFFFCC" valign="top">
+								<p align="center">
+								<font color="#000000">&nbsp;行動即時影像雲端決</font></p>
+								<p align="center"><font color="#000000">&nbsp;策輔助系統</font></p>
+								<p align="center"><font color="#000000">&nbsp;<img border="0" src="../content/images/product/app06.png" width="50" height="50"></font></td>
+								<td width="71%" bgcolor="#FFFFCC" valign="top">
+								<font color="#000000"> 行動即時影像雲端決策輔助系統是透過行動裝置(如智慧型手機、平板電腦等)以及雲端瀏覽平台，建構一個雲端瀏覽現場行動即時影像以輔助現場狀況判斷的解決方案。</font></td>
+							</tr>
+							</table>
+                        </p>
+					</div>
+
+					<div class="tab-pane fade" id="benefits">
+						<p>
+						<p><font color="#003366"><b>App作品介紹</b></font></p>
+						<table border="0" width="100%" id="table2">
+							<tr>
+								<td colspan="2" background="../content/images/tit_bg.jpg">
+								<b><font color="#FFFFFF">&nbsp;遊戲與娛樂類別</font></b></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#CCCCCC" valign="top">
+								<p align="center">
+								<font color="#000000">&nbsp;頭腦體操遊戲</font><p align="center">
+								<img border="0" src="../content/images/product/app07.png" width="50" height="50"></td>
+								<td width="71%" bgcolor="#CCCCCC" valign="top">
+								<font color="#000000">利用多樣不同主題的訓練遊戲，來訓練包含視覺、記憶、數學、邏輯、手部、聽覺等各項大腦功能。其更可紀錄運動進度與成績，進行分析及判斷大腦概況，方便隨時了解與查閱，並適時的提出建議 。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#FFFFCC" valign="top" align="center">
+								<font color="#000000">&nbsp;親子數獨</font><p>
+								<img border="0" src="../content/images/product/app08.png" width="50" height="50"></td>
+								<td width="71%" bgcolor="#FFFFCC" valign="top">
+								<font color="#000000">有別於一般數獨遊戲皆設計為單人使用，特地增加設計雙人模式，讓使用者能與親人或朋友可以藉由遊戲，來增進彼此間的互動與情感交流 。</font></td>
+							</tr>
+							<tr>
+								<td width="28%" bgcolor="#CCCCCC" valign="top" align="center">
+								<font color="#000000">&nbsp;懷念金曲</font><p>
+								<img border="0" src="../content/images/product/app09.png" width="80" height="80"></p>
+								<p>
+								<font color="#000000">&nbsp;</font></td>
+								<td width="71%" bgcolor="#CCCCCC" valign="top">
+								<font color="#000000">陪著老歌迷們一起懷舊，精選了華語(國語)、台語、英文(西洋)、日語、粵語，各類的經典老歌，讓大家回想往日的時光，尋找年輕時的美好回憶 。</font></td>
+							</tr>
+							</table>
+                        </p>
+					</div>
+
+				</div>
+				<!-- Tabs end -->
+            </div>
+            <!-- Product content end-->
+            
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+			
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2017 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

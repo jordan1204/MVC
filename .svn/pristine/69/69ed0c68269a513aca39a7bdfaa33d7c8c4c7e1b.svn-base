@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ebSuccessWebSite", "ebSuccessWebSite\ebSuccessWebSite.csproj", "{1C0B42A1-49BD-474A-8C45-1676E1DFA3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonResource", "CommonResource\CommonResource.csproj", "{15E27E74-8D78-44FC-9C02-924A0D3CDA02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0B42A1-49BD-474A-8C45-1676E1DFA3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0B42A1-49BD-474A-8C45-1676E1DFA3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0B42A1-49BD-474A-8C45-1676E1DFA3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0B42A1-49BD-474A-8C45-1676E1DFA3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E27E74-8D78-44FC-9C02-924A0D3CDA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E27E74-8D78-44FC-9C02-924A0D3CDA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E27E74-8D78-44FC-9C02-924A0D3CDA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E27E74-8D78-44FC-9C02-924A0D3CDA02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

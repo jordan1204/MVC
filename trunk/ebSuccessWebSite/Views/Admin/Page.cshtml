@@ -1,0 +1,44 @@
+﻿@model ebSuccessWebSite.Models.AdminModel
+<style>
+    .page-manager #MetaDescription{
+        width:400px; 
+        height:300px;      
+    }
+    .page-manager #MetaKeywords {
+        width: 400px;
+    }
+    .page-manager #MetaTitle {
+        width: 400px;
+    }
+</style>
+
+<div class="page-manager">
+    @using (Html.BeginForm("Page", "Admin", FormMethod.Post))
+    {
+        @Html.HiddenFor(x=>x.PageName)
+        @Html.LabelFor(x => x.MetaDescription)
+        <br />
+        @Html.TextAreaFor(x=>x.MetaDescription)
+        <br/>
+        @Html.LabelFor(x => x.MetaKeywords)
+        <br />
+        @Html.TextBoxFor(x => x.MetaKeywords)
+        <br />
+        @Html.LabelFor(x => x.MetaTitle)
+        <br />
+        @Html.TextAreaFor(x => x.MetaTitle)
+        <br />
+        <br />
+        <br />
+        @Html.TextAreaFor(m => m.Content, new { @class = "ckeditor" })
+    }
+</div>
+
+<script src="~/Scripts/ckeditor/ckeditor.js"></script>
+
+<script type="text/javascript">
+
+    CKEDITOR.replace('Content', { filebrowserImageUploadUrl: '@Url.Action("UploadPicture", "Home")', extraAllowedContent: 'span(*);ul;li;table;tr;td;style;*[id];*(*);*{*}', height: '800' });
+   
+</script>
+

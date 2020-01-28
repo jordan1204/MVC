@@ -1,0 +1,85 @@
+﻿@model ebSuccessWebSite.Models.LoginModel
+<style>
+    .admin-login {
+         font-family:Microsoft JhengHei;   
+        background-color: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        min-height: 300px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .mbr-login-box-top {
+        height: 5px;
+        background: linear-gradient(to right,#153B8E 0,#E4151F 100%);
+    }
+
+    .form-group{
+        margin-top:20px;
+    }
+
+    .form-group input{
+        padding:5px 5px 5px 5px;
+        height:25px;
+        width:90%;
+    }
+    .submitButton{
+        padding-top:20px;
+        border-top:1px solid #cec6c6;
+        margin-top:20px;
+    }
+    .submitButton input {
+        width: 90%;
+        border: none;
+        height: 36px;
+        border-radius: 4px;
+        background-color: #c60916;
+        color: #ffffff;
+    }
+        .submitButton input:hover {
+            opacity:0.8;
+        }
+    .title{
+        margin-top:20px;
+        text-align:center;
+        font-size:24px;
+        border-bottom:1px solid #cec6c6;
+        padding-bottom:20px;
+    }
+
+    .field-validation-error {
+        color: #ac2222;
+    }
+</style>
+
+<div class="admin-login">
+    <div class="mbr-login-box-top"></div>
+    <div id="mbr-login-box" class="mbr-login-box  no-partner">
+        <div class="title">
+            系統登入
+        </div>
+        @using (Html.BeginForm("Login", "Admin", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.Account, new { placeholder = Html.DisplayNameFor(m => m.Account), @class = "form-control" })
+                <br/>
+                @Html.ValidationMessageFor(model => model.Account)
+            </div>
+
+            <div class="form-group">
+                @Html.PasswordFor(m => m.Password, new { placeholder = Html.DisplayNameFor(m => m.Password), @class = "form-control" })
+                <br />
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+
+            <div class="submitButton">
+                <input type="submit" name="request" id="request" value="登入" class="btn btn-primary">
+            </div>
+        }
+    </div>
+</div>

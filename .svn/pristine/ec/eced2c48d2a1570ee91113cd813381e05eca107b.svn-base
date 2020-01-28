@@ -1,0 +1,12 @@
+﻿@model ebSuccessWebSite.Models.BannerModel
+@{
+    if (Model != null && Model.Picture != null)
+    {
+        string imageBase64 = Convert.ToBase64String(Model.Picture);
+        string imageSrc = string.Format("data:" + Model.MimeType + ";base64,{0}", imageBase64);
+        <div id="content_right_banner"><img src="@imageSrc" width="890" height="180" /></div>
+    }
+
+}
+
+

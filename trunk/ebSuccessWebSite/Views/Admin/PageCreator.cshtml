@@ -1,0 +1,41 @@
+﻿@model CommonResource.Models.PageContent_Mapping
+
+<div class="pageCreate-content">
+    <form id="CreatePageForm">
+        @Html.HiddenFor(m=>m.UnitId)
+        <div class="form-group">
+            <label for="Name">頁面名稱</label>
+            <input type="text" class="form-control" id="ContentName" name="ContentName" placeholder="請輸入頁面名稱">
+        </div>      
+        <hr>
+        <div class="form-group" align="center">
+            <button type="submit" class="btn btn-success">建立</button>
+        </div>
+    </form>
+</div>
+<script>
+    $("#CreatePageForm").submit(function (event) {
+
+        event.preventDefault();
+        var formData = new FormData($(this)[0]);
+
+        $.ajax({
+            url: "@Url.Action("AddPage", "Admin")",
+            type: "POST",
+            data: formData,
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false,
+            dataType: "json",
+            success: function (returndata) {
+                if (returndata.Success) {
+                    alert("新增成功");
+                    RefreshPage();
+                } else {
+                    alert(returndata.Message);
+                }
+            }
+        });
+    });
+</script>

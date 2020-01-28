@@ -1,0 +1,300 @@
+﻿@model ebSuccessWebSite.Models.FreeTrialModel
+@Scripts.Render("~/bundles/bootstrap") 
+@Styles.Render("~/Content/bootstrapStyle")
+@Scripts.Render("~/bundles/jqueryval") 
+<style>
+   .trialProductList{
+       width:95%;
+       font-size:15px;
+   }
+   .basicInfo{
+       width:95%;    
+   }
+
+   .basicInfo textarea{
+  
+       height:300px;
+   }
+   .submitButton{
+       width:100%;
+       display:table;
+   }
+   .field-validation-error{
+       color:#ac2222;
+   }
+   .about_content{
+       font-family:Microsoft JhengHei;    
+   }
+   #content_right{    
+       float:none !important;
+       width:initial;
+   }
+    #sub_menu {
+        margin-top: 34px !important; 
+    }
+
+    .jumbotron label{
+        font-size:14px !important;
+    }
+
+    #languageroll {
+        margin-top: 34px !important;
+    }
+
+    h1 {
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+    /* basic modern patch */
+    all: initial;
+    all: unset;
+}
+</style>
+
+<div id="pro_in_wrap">
+    <div id="content_left">
+        <div id="assinavi">
+            <h1>免費試用</h1>
+            <dl>
+                <dt class="on"><a href="@Url.Action("FreeTrial", "Home")">產品試用/服務諮詢</a></dt>
+            </dl>
+        </div>
+    </div>
+
+    <!--Banner -->
+    <div id="content_right_banner"><img src="~/Content/images/product_banner.jpg" width="890" height="180" /></div>
+    <!--Banner end -->
+
+
+    <div id="content_right">
+        <div id="guild">
+            <ul class="root">
+                <span class="home"><a href="@Url.Action("index","Home")"></a></span>
+                <li><a href="@Url.Action("FreeTrial","Home")">免費試用</a></li>
+                <li>產品試用/服務諮詢</li>      
+            </ul>
+        </div>
+
+        <h2>產品試用/服務諮詢</h2>
+
+    
+        <!-- About content -->
+        <div class="about_content">
+            @using (Html.BeginForm("FreeTrial", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                var index = 0;
+
+                <div class="trialProductList form-group">         
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">選擇欲試用或諮詢項目 @Html.ValidationMessageFor(model => model.ProductName)</div>
+                        <div class="panel-body">
+                            @{
+                                @Html.RadioButton("ProductName", "太陽能監控系統", new { id = "sms" })
+                                <label for="sms">太陽能監控系統</label>
+                                @Html.RadioButton("ProductName", "MonitorSP", new { id = "msp" })
+                                <label for="msp">MonitorSP系統上線後的效能監測</label>
+                                @Html.RadioButton("ProductName", "eB-Patrol", new { id = "ebp" })
+                                <label for="ebp">eB-Patrol網站內容即時防衛系統</label>
+                                @Html.RadioButton("ProductName", "電子商務平台", new { id = "ec" })
+                                <label for="ec">電子商務平台</label>
+
+                                <br/>
+                                @Html.RadioButton("ProductName", "RWD響應式網頁設計", new { id = "rwd" })
+                                <label for="rwd">RWD響應式網頁設計</label>
+                                @Html.RadioButton("ProductName", "CRM客戶關係管理", new { id = "crm" })
+                                <label for="crm">CRM客戶關係管理</label>                                
+                                @Html.RadioButton("ProductName", "廣告機管理系統", new { id = "adv" })
+                                <label for="adv">廣告機管理系統</label>
+                                @Html.RadioButton("ProductName", "Android APP開發", new { id = "android" })
+                                <label for="android">Android APP開發</label>
+                                @Html.RadioButton("ProductName", "IOS APP開發", new { id = "IOS" })
+                                <label for="IOS">IOS APP開發</label>
+                            }
+                        </div>
+                    </div>                        
+                  
+                </div>
+
+                <div class="basicInfo">
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Name, new { placeholder = Html.DisplayNameFor(m => m.Name),@class= "form-control" })                 
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>         
+
+            
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Telephone, new { placeholder = Html.DisplayNameFor(m => m.Telephone), @class = "form-control" })         
+                        @Html.ValidationMessageFor(model => model.Telephone)
+                    </div>
+
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Cellphone, new { placeholder = Html.DisplayNameFor(m => m.Cellphone), @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Cellphone)
+                    </div>
+
+                  <div class="form-group">        
+                      @Html.TextBoxFor(m => m.Email, new { placeholder = Html.DisplayNameFor(m => m.Email), @class = "form-control" })            
+                      @Html.ValidationMessageFor(model => model.Email)
+                  </div>
+
+                    <div class="form-group">
+                        @Html.TextAreaFor(m => m.Message, new { placeholder = Html.DisplayNameFor(m => m.Message), @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Message)
+                    </div>   
+                    <div class="submitButton">
+                        <input type="submit" name="request" id="request" value="送出" class="btn btn-primary">
+                    </div>
+
+
+                </div>               
+            }
+        </div>
+        <!-- About content end-->
+    </div>
+</div>

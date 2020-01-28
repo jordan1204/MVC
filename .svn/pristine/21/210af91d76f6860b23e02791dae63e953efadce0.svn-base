@@ -1,0 +1,330 @@
+﻿
+<style>
+    #sub_menu {
+        margin-top: 30px;
+        float: left;
+        font-size: 16px;
+    }
+    #sub_menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #sub_menu li {
+        height: 18px;
+        float: right;
+        margin: 0;
+        display: inline;
+        font-size: 12px;
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 0;
+        padding-left: 10px;
+    }
+    #SkypeButton_Call_ID{
+        margin-top: 34px;
+    }
+
+
+
+
+</style>
+
+
+<style>
+    .header-menu-custom {
+        display: table;
+        margin: 0 auto;
+        text-align: center;
+        height: 20px;
+        vertical-align: middle;
+        line-height: 13px;
+        font-size: 16px;
+        clear: both;
+        color:#ffffff;
+        padding-top: 10px;
+    }
+
+    .top-menu {
+        list-style: none;
+    }
+
+    .header-menu-custom .top-menu li {
+        padding-bottom: 25px;
+        margin-right: 10px !important;
+    }
+
+    .header-menu-custom li {
+        display: inline-block;
+    }
+
+    .sublist.first-level {
+        display: none;
+        position: absolute;
+        background-color: #585858;
+        z-index: 10;
+        margin-top: 10px; 
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+        border-radius: 0 0 10px 10px;      
+        padding:5px 5px 5px 5px;
+        width:200px;
+    }
+
+        .sublist.first-level > div > a {
+            display: block;
+            margin-bottom: 5px !important;
+            border: none !important;
+        }
+
+            .sublist.first-level > div > a > span {
+                font-weight: bold !important;
+                border: none !important;
+                text-align: left !important;
+                text-transform: inherit !important;
+                padding-bottom: 10px !important;
+                color:#ffffff !important;    
+            }
+
+        .sublist.first-level > div > .sublist {
+            text-align: left !important;
+            text-transform: inherit !important;
+        }
+
+
+            .sublist.first-level > div > .sublist > a > span {
+                margin-bottom: 5px !important;
+                border: none !important;
+                text-align: left !important;
+                text-transform: inherit !important;
+                padding-bottom: 10px !important;
+                color:#ffffff !important;    
+                font-size:14px !important;
+            }
+
+                .sublist.first-level > div > .sublist > a > span:hover {
+                    color:#ff6a00 !important;            
+                }
+
+            .sublist.first-level > div > .sublist > a {
+                display:table;
+                line-height:24px;      
+            }
+
+        .sublist.first-level > div {
+            float: left;
+            border: none !important;
+        }
+
+    .top-menu li a {
+        height: 35px;
+        color: #323232;
+        text-decoration: none;
+        font-weight:bold;
+    }
+        .top-menu li a:hover {
+            color: #253c70;
+            text-decoration: none;
+        }
+    .top-menu li.on a {
+        color: #9D6E30;
+        text-decoration: none;
+    }
+
+    .caret {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+        border-top: 4px dashed;
+        border-top: 4px solid\9;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+    }
+</style>
+
+
+
+<div id="header_wrap">
+    <div id="header">
+
+
+        <div class="top-section">
+            <div class="logo"><a href="@Url.Action("index","Home")"><img src="~/Content/images/logo.jpg" alt="網星資訊股份有限公司" width="300" border="0" title="網星資訊股份有限公司" /></a></div>
+            <div class="sub_menu" id="sub_menu">
+
+                <ul>
+                    <li><a href="@Url.Action("Page","Home",new {UnitId = 1, ContentId = 8 })">聯絡資訊</a></li>
+                    <li><a href="@Url.Action("News","Home")">最新消息</a></li>
+                    <li><a href="@Url.Action("Page","Home",new {UnitId = 2020 })">專業開發服務</a></li>
+                    <li><a href="@Url.Action("Page","Home",new {UnitId = 2013 })">產品資訊</a></li>
+                    <li><a href="@Url.Action("Page","Home",new {UnitId = 1 })">關於網星</a></li>   
+                </ul>
+            </div>
+            <div id="languageroll">
+                <p>Language</p>
+                <ul style="position: absolute; left: -1px; top: 18px">
+                    <li><a href="~/en/home.html">English</a></li>
+                    <li><a href="#">日本語</a></li>
+                </ul>
+            </div>
+            @*<div id="languageroll">
+                <a href="@Url.Action("Index","Home")"><img src="~/Content/images/tw.png" width="24" /></a>      
+                <a href="~/en/home.html"><img src="~/Content/images/us.png" width="24" /></a>                       
+            </div>*@
+        </div>
+
+        <div class="header-menu-custom">
+            <ul class="top-menu">
+                <li>
+                    <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1017})">
+                        <span>
+                            太陽能監控雲端平台
+                            <span class="caret"></span>
+                        </span>
+                    </a>
+                    <div class="sublist first-level" style="display: none;">
+                        <div>
+                            <div class="sublist" style="float:left;">
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1017,PageId=1011})">
+                                    <span>
+                                        Solar Monitor System 太陽能發電監控系統
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1017,PageId=1012})">
+                                    <span>
+                                        Solar Alert System 太陽能發電異常警報系統
+                                    </span>
+                                </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1039})">
+                        <span>
+                            電子商務系統
+                        </span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040})">
+                        <span>
+                            電子化服務效能管理
+                            <span class="caret"></span>
+                        </span>
+                    </a>
+                    <div class="sublist first-level" style="display: none;">
+                        <div>
+                            <div class="sublist" style="float:left;">
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040,PageId=1046})">
+                                    <span>
+                                        eB-CloudLoad™ 大量真實IP的壓力測試
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040,PageId=1047})">
+                                    <span>
+                                        MonitorSP™系統上線後的效能監測
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040,PageId=1048})">
+                                    <span>
+                                        MonitorSP™ 紅色警戒
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040,PageId=1049})">
+                                    <span>
+                                        APM 效能調校服務
+                                    </span>
+                                </a>
+</li>
+
+                <li>
+                    <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1041})">
+                        <span>
+                            資訊安全管理
+                            <span class="caret"></span>
+                        </span>
+                    </a>
+                    <div class="sublist first-level" style="display: none;">
+                        <div>
+                            <div class="sublist" style="float:left;">
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1041,PageId=1050})">
+                                    <span>
+                                        eB-Patrol™ 網站內容即時防衛系統
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1041,PageId=1051})">
+                                    <span>
+                                        機密資料保護
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1041,PageId=1052})">
+                                    <span>
+                                        MonitorSP™ Security Suite
+                                    </span>
+                                </a>
+                </li>
+
+                <li>
+                    <a href="@Url.Action("Page","Home",new { UnitId=2020})">
+                        <span>
+                            專業開發服務
+                            <span class="caret"></span>
+                        </span>
+                    </a>
+                    <div class="sublist first-level" style="display: none;">
+                        <div>
+                            <div class="sublist" style="float:left;">
+                                <a href="@Url.Action("Page", "Home", new { UnitId = 2020, ContentId=1046})">
+                                    <span>
+                                        行動應用軟體App開發服務
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2020,ContentId=1047})">
+                                    <span>
+                                        IoT應用系統開發
+                                    </span>
+                                </a>
+                                <a href="@Url.Action("Page","Home",new { UnitId=2020,ContentId=1048})">
+                                    <span>
+                                        實績介紹
+                                    </span>
+                                </a>
+                </li>           
+
+                <li>
+                    <a href="@Url.Action("FreeTrial","Home")">
+                        <span>
+                            我要免費試用
+                        </span>
+                    </a>
+                </li>
+
+                </ul>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('.top-menu').on('mouseenter', 'li > a', function () {
+            var getSilbings = $(this).siblings();
+            $(getSilbings[0]).show();
+        });
+        $('.top-menu').on('mouseenter', 'li', function () {
+            var getDiv = $(this).find("div");
+            $(getDiv[0]).show();
+        });
+        $('.top-menu').on('mouseleave', 'li', function () {
+            var getDiv = $(this).find("div");
+            $(getDiv[0]).hide();
+        });
+        $('.top-menu').on('mouseenter', 'li > .sublist.first-level', function () {
+            $(this).show();
+        });
+        $('.top-menu').on('mouseleave', 'li > .sublist.first-level', function () {
+            $(this).hide();
+        });
+    });
+</script>

@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星產品 | MonitorSP系統上線後的效能監測</title>
+<meta name="keywords" content="網站效能監測,網站異常監測,website performance,performance monitoring,performance tuning,效能調校,軟體工具,效能診斷,效能分析,效能檢測,系統效能監控,改善網站效能,雲端運算,雲端測試,測試軟體" />
+<meta name="description" content="MonitorSP 是一亞太地區首創以使用者觀點，採用「主動式監測法」，藉由使用者的觀點來監測、識別、診斷、分析系統效能缺失之處。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+
+
+<script src="js/bootstrap.js"></script>
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+
+<!--<link href="bootstrap.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="news.html">最新消息</a></li>
+              <li><a href="benchmark.html">Benchmark</a></li>
+              <li><a href="contact.html">聯絡資訊</a></li>
+              <li><a href="services.html">服務與解決方案</a></li>
+              <li><a href="products.html">產品資訊</a></li>
+              <li><a href="about.html">關於網星</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="en/home.html">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全管理">資訊安全管理</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+            <li><a href="solarmonitor.html" title="太陽能監控雲端平台">太陽能監控雲端平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>產品資訊</h1>
+              <dl>
+                <dt><a href="solarmonitor.html">太陽能監控雲端平台</a></dt>
+                <dt class="on"><a href="monitoring.html">電子化服務效能管理</a></dt>
+                <span>
+                <dd><a href="monitoring_01.html">eB-CloudLoad 大量真實IP的壓力測試</a></dd>
+                <dd class="on"><a href="monitoring_02.html">MonitorSP 系統上線後的效能監測</a></dd>
+                <dd><a href="monitoring_03.html">MonitorSP 紅色警戒</a></dd>
+                </span>
+                <dt><a href="security.html">資訊安全管理</a></dt>
+                <dt><a href="professional.html">專業資訊服務</a></dt>
+              </dl>
+			&nbsp;<p><a href="mailto:marketing@ebsuccess.com">
+<img src="../content/images/contact.png"></a>                     
+            </div>
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/product_banner.JPG" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="products.html">產品資訊</a></li>
+                <li><a href="monitoring.html">電子化服務效能管理</a></li>
+                <li>MonitorSP 系統上線後的效能監測</li>
+              </ul>
+            </div>
+            
+            <h2>MonitorSP<font face="微軟正黑體">™</font> 系統上線後的效能監測</h2>
+            
+            
+                        <!-- Product content -->
+            <div class="product_content">
+            				
+                            <!-- Tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#overview" data-toggle="tab">產品導覽</a></li>
+					<li class=""><a href="#features" data-toggle="tab">功能特色</a></li>
+					<li class=""><a href="#benefits" data-toggle="tab">產品效益</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="overview">
+						<p>順著產業電子化經營模式，企業的電子化服務系統效能指標，就是企業競爭優勢的指標。在第一時間了解實際的客戶端感受，充分確保系統的可用性與可靠性，才能提高客戶的滿意度。MonitorSP 是一亞太地區首創以使用者觀點，採用「主動式監測法」，藉由使用者的觀點來監測、識別、診斷、分析
+						網站與系統效能缺失之處。同時，針對電子化服務系統的內容經常性變更，也能提供一套多元化的管理方案，協助企業建置完整且成功的電子化服務營運策略，確保您的收益。</p>
+						<p align="center">
+						<img border="0" src="../content/images/product/msp001.gif" width="336" height="297"></p>
+						<p align="center">
+						&nbsp;</p>
+						<p align="center">
+						<img border="0" src="../content/images/product/msp002.jpg" width="600" height="429"></p>
+
+						<p align="center">
+						&nbsp;</p>
+					</div>
+
+					<div class="tab-pane fade" id="features">
+						<p>
+<ul class="point">
+<li><font color="#003366"><b>採用低負荷的效能監測技術︰</b></font>有別於傳統效能管理，MonitorSP採用低負荷 (Low overhead) 的效能監測分析技術，不需要種植任何代理程式(Agent) 於企業的系統架構，更不需要更動企業的基礎系統架構，可大幅降低導入時程與成本。</li> 
+<li><font color="#003366"><b>模擬使用者感受︰</b></font>企業能按照其需要，選擇分佈所在地乃至企業內部 Intranet 或 VPN 的監測點，實地監測不同地區的執行情況，以真正了解實際使用者的經驗與感受，同時也能藉以作不同區域的效能比較與分析。</li>
+<li><font color="#003366"><b>判別效能不彰的原因︰</b></font>其可找出系統何處及何時發生效能瓶頸，並辨識是哪個項目、執行動作或應用程式影響效能表現，透過端點到端點 (End-to-end)的監測，當發生執行錯誤時，Failure Reports 更能忠實地指出
+哪個元件 (Component) 產生問題或是何種錯誤發生，能輕易的分析瓶頸所在，並找出效能不佳的根本原因，讓您快速解決系統問題。</li>
+<li><font color="#003366"><b>深入的效能分析︰</b></font>提供多樣化分析報表，由大範圍的 action/AP 至細部的每個元件分析資料內容，您可以一覽無遺各項動作的執行狀況。更可結合應用程式效能調校管理，逐步診斷分析，以找出特定的問題發生所在。</li>
+</ul>
+						<p align="center">
+						<img border="0" src="../content/images/product/mspreport1.jpg" width="350" height="234"></p>
+						<ul class="point">
+<li><font color="#003366"><b>防範於未然︰</b></font>藉由 event-driven alert 的預先設定，在客戶發現問題或感受到效能不佳之前，MonitorSP 能透過手機、email、簡訊等發出即時的警訊。</li>
+<li><font color="#003366"><b>體驗內容之正確性︰</b></font>提供 Content check 功能，企業可按其需求設定內容驗證，透過完善的警示系統與分析圖表，管理人員可確保系統能提供正確性的內容。</li>
+</ul>
+						<p align="center">
+						<img border="0" src="../content/images/product/mspreport2.jpg" width="350" height="234"></p>
+						<ul class="point">
+<li><font color="#003366"><b>多樣化的效能報表︰</b></font>提供多樣化的效能報告，如Availability Report、Performance Report等，以作分析、比對效能改善前後的表現，使系統能調校到最佳點。</li>
+</ul>
+						<p align="center">
+						<img border="0" src="../content/images/product/mspreport3.jpg" width="350" height="234"></p>
+						<ul class="point">
+<li><font color="#003366"><b>內容變更管理︰</b></font>電子化服務系統的內容會隨時變更，例如使用者增加、功能變更、執行流程改變等，提供歷史記錄 (Historical performance data)，可比較這些變更帶來的影響，以作最佳的內容變更管理。</li>
+<li><font color="#003366"><b>協助建置服務水準管理(SLM)︰</b></font>協助企業設定服務品質管理(Service level management - SLM)，按照企業制定的效能指標，進行 24x7 監測，在設定的標準下發出警訊，並提供即時分析報告，有助提升客戶滿意度。</li>
+<li><font color="#003366"><b>競爭分析比較︰</b></font>提供的效能比較 (Task comparison) 服務，企業將能清楚了解到其系統的回應速度、可用性等是否較競爭對手居於優勢，如此一來不但能作為效能調校的參考，也能成為企業電子化服務營運的發展及行銷決策上的參考依據。</li>
+</ul>
+                        </p>
+					</div>
+
+					<div class="tab-pane fade" id="benefits">
+						<p>
+<ul class="point">
+<li>提供使用者觀點的監測法，協助了解客戶使用電子化服務系統的經驗。</li>
+<li>提供系統領先指標，在客戶發現問題或感受到效能不佳之前，發出警訊並迅速尋找問題之根源，加強系統的可用性與穩定性。</li>
+<li>透過持續不斷的效能管理，可大幅提升系統的可靠性。</li>
+<li>結合使用者經驗與效能資料，讓管理者設計更合適之電子化服務流程。</li>
+<li>縮短解決系統效能問題的時程，提高客戶滿意度及員工生產力。</li>
+<li>確保電子化服務系統能 24x7 運作，提升競爭力。</li>
+</ul>
+                        </p>
+					</div>
+
+				</div>
+				<!-- Tabs end -->
+            </div>
+            <!-- Product content end-->
+            
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+			
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2017 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

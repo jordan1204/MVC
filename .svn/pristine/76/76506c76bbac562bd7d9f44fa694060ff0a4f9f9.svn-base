@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星資訊 | 關於網星</title>
+<meta name="keywords" content="網星資訊，eBsuccess，太陽能電力監控，電子化服務效能管理，資訊安全，專業資訊服務，Mobile APP，網站異常監測，防網頁篡改" />
+<meta name="description" content="網星資訊為雲端監測系統專家，採用雲端運算技術，提供各類型的監測系統解決方案。網星資訊所提供的雲端監測服務已超過10年多的時間，並獲得許多政府機構與大型企業所採用，累績相當多的專案服務經驗，也讓網星資訊在跨入各類型的雲端監測服務更加得心應手。目前，網星資訊更跨入「太陽能發電系統的監測」，結合雲端運算的技術，監測各電廠的發電及運作狀況，掌握各電廠的執行情況與投資收益回報，我們期盼能透過多方的合作，共創雲端運算的商機。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="news.html">最新消息</a></li>
+              <li><a href="benchmark.html">Benchmark</a></li>
+              <li><a href="contact.html">聯絡資訊</a></li>
+              <li><a href="services.html">服務與解決方案</a></li>
+              <li><a href="products.html">產品資訊</a></li>
+              <li><a href="about.html">關於網星</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="en/home.html">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全管理">資訊安全管理</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+            <li><a href="solarmonitor.html" title="太陽能監控雲端平台">太陽能監控雲端平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>關於網星</h1>
+              <dl>
+                <dt class="on"><a href="about.html">關於網星</a></dt>
+                <dt><a href="achievements.html">大事記</a></dt>
+                <dt><a href="milestones.html">重要里程碑</a></dt>
+                <dt><a href="news.html">最新消息</a></dt>
+                <dt><a href="customers.html">客戶資料</a></dt>
+                <dt><a href="career.html">人才招募</a></dt>
+                <dt><a href="contact.html">聯絡資訊</a></dt>                
+              </dl>
+            </div>
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/company_banner.jpg" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="about.html">關於網星</a></li>
+                <li>關於網星</li>
+                <!--<li>大事記</li> -->
+              </ul>
+            </div>
+            
+            <h2>關於網星</h2>
+            
+            
+            <!-- About content -->
+            <div class="about_content">
+              <div class="txt">
+                <p>網星資訊為雲端監測系統專家，採用雲端運算技術，提供各類型的監測系統解決方案。網星資訊所提供的雲端監測服務已超過10年多的時間，並獲得許多政府機構與大型企業所採用，累績相當多的專案服務經驗，也讓網星資訊在跨入各類型的雲端監測服務更加得心應手。目前，網星資訊更跨入「太陽能發電系統的監測」，結合雲端運算的技術，監測各電廠的發電及運作狀況，掌握各電廠的執行情況與投資收益回報，我們期盼能透過多方的合作，共創雲端運算的商機。</p>
+                <p>&nbsp;</p>
+                <p>網星資訊於2000年2月在台灣新竹工業技術研究院之高科技育成中心正式成立， 是亞太地區第一家與唯一自行研發「電子化服務效能監測與管理」的公司， 所提供之產品及服務已獲得國際級大廠所採用。有鑒於各企業及政府機構大量倚賴網路從事各種交易與服務，雖然電子化服務系統功能豐富，但效能品質卻往往造成企業及政府機構極大的困擾與損失，網星資訊將專注於提供產業界管理電子化服務效能所須要的技術和服務。網星資訊所具備的技術，乃運用獨家的演算法，能準確的量測出電子化服務系統效能，協助企業找出可能的效能瓶頸，而降低企業面臨電子化服務的風險。</p>
+                <p>&nbsp;</p>
+                <p>網星資訊的產品已得到相關科技單位之肯定， 曾獲得中華民國傑出企業管理人協會頒發的『2001年卓越成就金炬獎』、經濟部頒發 的『2003年國家新創事業獎』、2006年取得『中華民國發明專利證書』、2007年取得經濟部工業局頒發的『技術服務能量登錄證書』、2011年取得中國大陸國家知識產權局所頒發的『發明專利證書』，及與2012年成功取得香港知識產權署所頒發的『專利證書』，這些獎項及認證不僅印証網星資訊的卓越表現，更得到專業同儕的充分肯定。 今日，網星資訊的產品已被無數大型國際企業與政府機構所採用，已成為台灣「電子化服務系統可用性與效能管理」雲端服務的第一品牌。</p>
+                <p>&nbsp;</p>
+                <p>網星資訊憑藉既有之研發技術(Technology)、專利(Patent)，已獲得大型國際企業及政府機構所之採用，於台灣市場已建立良好的口碑及豐碩的成果。網星資訊將投入更專業的經營團隊，積極拓展海外市場，健全落實全球化的經營，使市佔率不斷擴大。</p>
+              </div>
+            </div>
+            <!-- About content end-->
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>					
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+		
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2017 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

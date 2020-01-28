@@ -1,0 +1,143 @@
+﻿
+
+<style>
+    .fixedbar {
+        position: fixed;
+        width: 50px;
+        height: 100px;
+        right: 5px;
+        top: 225px;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+        .fixedbar > div > .hidden-content {
+            display: none;
+            border: 1px solid lightgray;
+            position: absolute;
+            top: 0px;
+            left: -101px;
+            width: 100px;
+            background-color: white;
+            color: gray;
+            font-size: 80%;
+        }
+
+            .fixedbar > div > .hidden-content img {
+                width: 100%;
+            }
+
+        .fixedbar > div:hover > .hidden-content {
+            display: block;
+        }
+
+    .line-service {
+        background-size:cover;
+        width: 43px;
+        height: 43px;
+        background-image: url(Content/images/Line-messenger-app-logo.png);
+        background-position: center;
+        color: transparent;
+        opacity: .7;
+    }
+
+        .line-service:hover {
+            opacity: 1;
+        }
+</style>
+
+@Html.Action("Footer", "Common")
+<div id="footer_wrap">
+    <div id="footer">
+        <dl>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=1})" target="_self">關於網星</a></dt>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=1,ContentId=2})" target="_self">大事記</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=1,ContentId=3})" target="_self">重要里程碑</a></dd>
+            <dd><a href="@Url.Action("News","Home")" target="_self">最新消息</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=1,ContentId=7})" target="_self">人才招募</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=1,ContentId=8})" target="_self">聯絡資訊</a></dd>
+        </dl>
+
+        <dl>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=2013})" target="_self">產品資訊</a></dt>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1017})" target="_self">太陽能監控雲端平台</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1039})" target="_self">電子商務系統</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1040})" target="_self">電子化服務效能管理</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1041})" target="_self">資訊安全管理</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2013,ContentId=1049})" target="_self">成功案例</a></dd>
+        </dl>
+
+        <dl>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=2020})" target="_self">專業開發服務</a></dt>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2020,ContentId=1046})" target="_self">行動應用軟體App開發服務</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2020,ContentId=1047})" target="_self">IoT應用系統開發</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2020,ContentId=1048})" target="_self">實績介紹</a></dd>
+        </dl>
+
+        <dl>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=2015})" target="_self">Benchmark</a></dt>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2015,ContentId=1025})" target="_self">網站效能指標</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2015,ContentId=1026})" target="_self">效能數據說明</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2015,ContentId=1027})" target="_self">各行業的網站效能指標</a></dd>
+
+        </dl>
+
+        <dl>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=2016})" target="_self">活動訊息</a></dt>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2016,ContentId=1028})" target="_self">網站效能測試</a></dd>
+            <dd><a href="@Url.Action("Page","Home",new { UnitId=2016,ContentId=1029})" target="_self">eB-Patrol產品試用</a></dd>
+            <dd></dd>
+            <dt><a href="@Url.Action("Page","Home",new { UnitId=2017})" target="_self">網站導覽</a></dt>
+
+        </dl>
+
+    </div>
+</div>
+
+<div id="footer_copy_wrap">
+    <div id="footer_copy">
+        <div class="statement">
+            新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+            台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+        </div>
+        <div class="copyright">Copyright &copy; @DateTime.Now.Year eBsuccess Solutions Inc. All rights reserved.</div>
+        <div class="copyright"><a style="text-decoration: none" a href="@Url.Action("Page","Home",new { UnitId=2018,ContentId=1034})">隱私權政策</a> | <a style="text-decoration: none" a href="@Url.Action("Page","Home",new { UnitId=2018,ContentId=1035})">使用條款</a></div>
+    </div>
+</div>
+
+@*<div id="sidebar">
+        <div class="line-service">
+            Line客服
+            <div class="hidden-content">
+                <a href="https://line.me/ti/p/%40yyu0311u">
+                    <img src="/Content/images/eb_QRcode.PNG">
+                </a>
+            </div>
+        </div>
+    </div>*@
+
+@*<div class="fixedbar">
+    <div class="back-to-top show" id="back-to-top"></div>
+    <div class="line-service">
+        Line客服
+        <div class="hidden-content">
+            <img src="~/Content/images/eb_QRcode.PNG">
+        </div>
+    </div>
+</div>*@
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/58ec71c7f7bbaa72709c5990/default';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->

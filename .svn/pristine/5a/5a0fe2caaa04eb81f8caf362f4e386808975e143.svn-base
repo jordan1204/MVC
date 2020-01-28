@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星服務 | 金融業</title>
+<meta name="keywords" content="網星資訊，eBsuccess，太陽能，電子化服務效能管理，資訊安全，專業資訊服務，eB-CloudLoad 大量真實IP的壓力測試，MonitorSP 系統上線後的效能監測，網站異常" />
+<meta name="description" content="網星資訊的解決方案協助金融業者面對瞬息萬變的新挑戰。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="news.html">最新消息</a></li>
+              <li><a href="benchmark.html">Benchmark</a></li>
+              <li><a href="contact.html">聯絡資訊</a></li>
+              <li><a href="services.html">服務與解決方案</a></li>
+              <li><a href="products.html">產品資訊</a></li>
+              <li><a href="about.html">關於網星</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="en/home.html">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全管理">資訊安全管理</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+			<li><a href="solarmonitor.html" title="太陽能監控雲端平台">太陽能監控雲端平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>服務與解決方案</h1>
+              <dl>
+                <dt class="on"><a href="banking.html">金融業</a></dt>
+                <dt><a href="hi-tech.html">高科技業</a></dt>
+                <dt><a href="government.html">政府機構</a></dt>
+                <dt><a target="_blank" href="http://www.mit247.com/">中小型企業</a></dt>
+              </dl>
+			&nbsp;<p><a href="mailto:marketing@ebsuccess.com">
+<img src="../content/images/contact.png"></a>   
+            </div>
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/service_banner1.jpg" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="services.html">服務與解決方案</a></li>
+                <li>金融業</li>
+              </ul>
+            </div>
+            
+            <h2>金融業</h2>
+            
+            
+            <!-- Services content -->
+      <div class="service_content">
+        <div class="txt">
+        <h3 class="serh3">金融業的解決方案︰幫助您迎接瞬息萬變的新挑戰。</h3>
+                <p>網路銀行是每家銀行都提供的服務，如何確保客戶使用網路銀行的滿意度，不僅可以提高客戶的忠誠度，且跟據國外的統計調查，銀行的服務透過網路銀行的成本與透過實體分行比較，網路銀行的服務成本只佔實體分行成本的1%，當更多客戶願意使用網路銀行的服務，將會大幅降低銀行經營成本，所以網路銀行資訊系統服務品質已銀行服務滿意度的重要課題。金融業者必須要提供24小時365天的不中斷全年無休、暢通無阻的即時服務，以確保滿足客戶的需求。</p>
+		<p>&nbsp;</p>
+		<table border="0" width="100%" id="table1">
+			<tr>
+				<td background="../content/images/tit_bg.jpg">&nbsp;<font color="#FFFFFF">運用eB-CloudLoad 
+				大量真實IP的壓力測試&nbsp;</font></td>
+			</tr>
+		</table>
+                <p>於新的系統上線前，可採用eB-CloudLoad 壓力測試，模擬使用者之經驗，預測系統上線後的狀況，確保新系統之穩定性、擴展性與可靠性，以提供客戶品質導向的電子化服務。</p>
+<ul class="point">
+<li>確保系統能在理想的架構下成功上線，實現預期的效益。</li>
+<li>了解真實使用者的感受，準確分析系統之效能。</li>
+<li>提高系統運作的效率，增強企業的競爭優勢。</li>
+<li>節省人力與成本，其採用離體測試架構，不受限於被測系統的異質軟硬體環境。</li>
+</ul>
+		<p style="text-align: right"><a href="monitoring_01.html">
+		<font color="#003366">&gt;&gt;看更多</font></a></p>
+		<table border="0" width="100%" id="table2">
+			<tr>
+				<td background="../content/images/tit_bg.jpg"><font color="#FFFFFF">&nbsp;運用MonitorSP 
+				系統上線後的效能監測</font></td>
+			</tr>
+		</table>
+<p>透過MonitorSP即時監測與效能分析模式，可縮短尋找問題的時間，進而能更快速解決問題，不既能提供24x7可用、穩定的網路銀行服務，更可使IT人員能將寶貴的時間用在更前瞻的系統規劃及建置上。</p>
+<ul class="point">	
+<li>透過主動式監控(Proactively Monitoring)及自動預警，隨時隨地掌握系統的運作狀態。</li>
+<li>持續不斷的效能分析，有助提昇網路銀行的服務品質。</li>
+<li>節省人力成本，降低OP 與Call Center的成本。</li>
+<li>以服務觀點(Service perspective )監測IT環境。</li>
+<li>建立網路銀行的服務領先指標(Leading Indicator)，以提高企業獲利基礎。</li>
+<li>導入SLM (Service level Management)，以增加客戶忠誠度。</li>
+</ul>
+        <p style="text-align: right"><a href="monitoring_02.html">
+		<font color="#003366">&gt;&gt;看更多</font></a></div>
+        </div>
+            <!-- Services content end-->
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>					
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元一街8號4樓之6<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2017 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

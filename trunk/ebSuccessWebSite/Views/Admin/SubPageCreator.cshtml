@@ -1,0 +1,59 @@
+﻿@model  CommonResource.Models.PageContent
+
+<style>
+    .editor-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="editor-content">
+    <form id="CreateSubPageForm">
+        @Html.HiddenFor(m => m.Id)
+        @Html.HiddenFor(m=>m.ContentId)
+        @Html.HiddenFor(m => m.UnitId)
+        <div class="form-group">
+            <label for="Name">子頁面(Sub Page)名稱</label>
+            <input type="text" class="form-control" id="PageTitle" name="PageTitle" placeholder="請輸入子頁面名稱" >
+        </div>
+        <div class="form-group">
+            <label for="Url">排序(值越小越前面)</label>
+            <input type="text" class="form-control" id="DataOrder" name="DataOrder" placeholder="請輸入排序順位數字內容" >
+        </div>
+        <div class="form-group">
+            <label for="Url">顯示於前台</label>
+            @Html.CheckBoxFor(m=>m.Enable)    
+        </div>
+        <hr>
+        <div class="form-group" align="center">
+            <button type="submit" class="btn btn-success">建立</button>
+        </div>
+    </form>
+</div>
+
+<script>
+
+    $("#CreateSubPageForm").submit(function (event) {
+        event.preventDefault();
+        var formData = new FormData($(this)[0]);
+
+        $.ajax({
+            url: "@Url.Action("CreateSubPage", "Admin")",
+            type: "POST",
+            data: formData,
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false,
+            dataType: "json",
+            success: function (returndata) {
+                if (returndata.Success) {
+                    alert("建立成功");
+                    RefreshPage();
+                } else {
+                    alert(returndata.Message);
+                }
+            }
+        });
+    });
+</script>

@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>網星產品 | Solar Monitor System 太陽能發電監控系統</title>
+<meta name="keywords" content="太陽能,太陽能發電系統, 太陽光電, 太陽能監測, 太陽能發電監控系統, solar, solar monitoring" />
+<meta name="description" content="網星資訊的「太陽能發電監控系統」，將太陽能發電的數據傳送到雲端主機，提供即時的發電數據與長期紀錄，當逆變器有異常導致無法持續發電時，能即時發出警訊通知相關人員進行處置，以確實掌握各電廠的發電情況，進而確保太陽能電廠的投資收益。" />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../Content/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+
+
+<script src="js/bootstrap.js"></script>
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+
+<!--<link href="bootstrap.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="index.html"><img src="../content/images/logo_eng2015.jpg" alt="網星資訊股份有限公司" width="312" height="75" border="0" title="網星資訊股份有限公司" /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>語系</p>
+		      <ul>
+			     <li><a href="#">English</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+			<li><a href="professional.html" title="專業資訊服務">專業資訊服務</a></li>
+			<li><a href="security.html" title="資訊安全管理">資訊安全管理</a></li>
+			<li><a href="monitoring.html" title="電子化服務效能管理">電子化服務效能管理</a></li>
+            <li><a href="solarmonitor.html" title="太陽能監控雲端平台">太陽能監控雲端平台</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>Product</h1>
+              <dl>
+                <dt class="on">Solar Monitor System</a></dt>
+                <span>
+                <dd class="on"><a href="solar_01.html">Solar Web Portal</a></dd>
+                <dd class="on"><a href="solar_01.html">eB-Datalogger</a></dd>
+                </span>
+
+
+              </dl>
+			&nbsp;<p><a href="mailto:marketing@ebsuccess.com">
+<img src="../content/images/contact.png"></a>                 
+            </div>
+         
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="../content/images/product_banner.JPG" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="index.html"></a></span>
+                <li><a href="products.html">產品資訊</a></li>
+                <li><a href="solarmonitor.html">太陽能監控雲端平台</a></li>
+                <li>Solar Monitor System 太陽能發電監控系統</li>
+              </ul>
+            </div>
+            
+            <h2>Solar Monitor System 太陽能發電監控系統</h2>
+            
+            
+                        <!-- Product content -->
+            <div class="product_content">
+            				
+                            <!-- Tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#overview" data-toggle="tab">產品導覽</a></li>
+					<li class=""><a href="#archit" data-toggle="tab">系統架構</a></li>
+					<li class=""><a href="#features" data-toggle="tab">功能特色</a></li>
+					<li class=""><a href="#benefits" data-toggle="tab">產品效益</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="overview">
+						<p>隨著能源成本與環境問題日益加深，太陽能已成為各國政府重要的綠色替代能源，更帶動了太陽能發電需求急增，如何確保太陽能發電效能是建置太陽能發電系統之最重要課題。</p>
+						<p>&nbsp;</p>
+
+<p>網星資訊的「太陽能發電監控系統」，將太陽能發電的數據傳送到雲端主機，提供即時的發電數據與長期紀錄，當逆變器有異常導致無法持續發電時，能即時發出警訊通知相關人員進行處置，以確實掌握各電廠的發電情況，進而確保太陽能電廠的投資收益。</p>
+						<p align="center">
+						<img border="0" src="../content/images/product/s001.png" width="600" height="407"></p>
+						<p align="center">
+						本系統利用安裝於系統平台的資料擷取軟體，並透過同時連結逆變器(Inverter)與資料收集器 (eB-DataLogger)，來取得逆變器內跟發電效益相關的各項數據。</p>
+					</div>
+
+					<div class="tab-pane fade" id="archit">
+						<p>
+						<p>「Solar Monitor System 太陽能發電監控系統」主要由兩子系統組成:</p>
+						<table border="0" width="100%" id="table1">
+							<tr>
+								<td background="../content/images/tit_bg.jpg">
+								<font color="#FFFFFF">&nbsp;資料收集器 (eB-DataLogger)</font></td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFCC"><font face="標楷體">&nbsp;•</font>提供Web UI設定介面，方便人員使用。<p>
+								<font face="標楷體">&nbsp;•</font>收集電廠發電資料，透過網路送至雲端伺服主機作分析。</p>
+								<p><font face="標楷體">&nbsp;•</font>外接顯示設備，直接顯示電廠的發電資料。</p>
+								<p><font face="標楷體">&nbsp;•</font>內建資料記錄器功能，避免因網路中斷造成資料遺失。</p>
+								<p><font face="標楷體">&nbsp;•</font>可透過遠端，進行軟體即時除錯。</p>
+								<p><font face="標楷體">&nbsp;•</font>提供簡易安裝設定與本機檢測。 </p>
+								<p><font face="標楷體">&nbsp;•</font>支援多廠牌逆變器。 </p> </td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFCC">
+								<p align="center">
+								<img border="0" src="../content/images/product/s002.png" width="400" height="301"></p>
+								<p align="center">&nbsp;</td>
+							</tr>
+						</table>
+                        <p align="left">&nbsp;</p>
+						<table border="0" width="100%" id="table2">
+							<tr>
+								<td background="../content/images/tit_bg.jpg">
+								<font color="#FFFFFF">&nbsp;太陽能發電監控入口網 (SMS Web Portal)</font></td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFCC"><font face="標楷體">&nbsp;•</font>All-in-one 
+								的太陽能展示、管理及監控系統。<p>
+								<font face="標楷體">&nbsp;•</font>GIS 即時發電資訊顯示。</p>
+								<p><font face="標楷體">&nbsp;•</font>動態擷取發電資訊。</p>
+								<p><font face="標楷體">&nbsp;•</font>即時異常警訊通知。 </p>
+								<p><font face="標楷體">&nbsp;•</font>多樣化的效益與分析報表。 </p>
+								<p><font face="標楷體">&nbsp;•</font>多元化的系統設定。 </p>
+								<p><font face="標楷體">&nbsp;•</font>提供權限控管設定。&nbsp;</p>
+								<p align="center">
+								<img border="0" src="../content/images/product/s003.png" width="400" height="240"></p>
+								<p align="center">&nbsp;</td>
+							</tr>
+							</table>
+                        </p>
+					</div>
+
+
+					<div class="tab-pane fade" id="features">
+						<p>
+<ul class="point">
+<li><font color="#003366"><b>即時顯示系統資訊︰</b></font>本系統的監控項目包含即時發電量、今日累積發電量、今日高峰發電量(含發生時間)、系統總累積發電量及歷史資料查詢。管理人員可選定特定專案案場後，藉由瀏覽器，透過本系統所提供的即時狀況功能，瀏覽該案場目前執行效益及相關資訊，以便作出最佳的調整。</li>
+</ul>
+						<p align="center">
+						<img border="0" src="../content/images/product/s004.png" width="400" height="249"></p>
+						<ul class="point">
+<li><font color="#003366"><b>動態擷取發電資訊︰</b></font>整合Google地圖標示監測站位置，直覺式的展示方式顯示各發電廠的基本資訊、影像、狀態及
+監控資訊，更可支援街道圖、衛星圖、地形圖、地圖縮放、滑鼠移動，以便檢視即時發電資訊。</li> 
+<li><font color="#003366"><b>即時警訊通知︰</b></font>可預先設定異常事件發生時的相關通知定義，透過 Email或手機簡訊等發出異常狀態警訊，藉此讓管理人員可儘速進行問題排除。</li>
+<li><font color="#003366"><b>效益統計報表︰</b></font>藉由本系統所提供的效益統計報表，使用者可查詢特定案場的累計統計資料，包含案場效益概況、發電效益報表、財務效益報告、年度比較報告、匯出報表、案場基本資訊、案場即時數據等，並支援多種報表格式，更可匯出成Excel檔案，以便日查詢與分析。</li>
+</ul>
+						<p align="center">
+						<img border="0" src="../content/images/product/s005.png" width="400" height="349"></p>
+						<ul class="point">
+<li><font color="#003366"><b>多元化的系統設定︰</b></font>本系統提供視覺化的圖形展示介面，並透過Web-based遠端管理，讓管理人員輕鬆地進行
+監控設定，按照需求進行案場管理、逆變器管理等設定，並允許調整系統參數，運用系統內的相關效益資訊，如預估財務收益、預估減少CO2排放量等，藉參數設定功能，可依照不同地區與專案，進行效益數據換算，以達到最佳化的操作。</li>
+</ul>
+						</p>
+					</div>
+
+					<div class="tab-pane fade" id="benefits">
+						<p>
+<ul class="point">
+<li><font color="#003366"><b>增加發電系統的投資收益回報︰</b></font>可根據發電系統的資訊，加以分析，依照即時發電資訊，將太陽板發電效率進行串聯分級化，提升太陽能板發電效率，以助增加發電系統的投資收益回報。</li>
+<li><font color="#003366"><b>提升太陽能發電系統的效率︰</b></font>透過本系統平所提供資料擷取功能，提供即時性的發電系統效益資訊，當異常事件發生時，在最短的時間內獲得通知，防止問題惡化，以助太陽能發電系統維持在最佳的狀態。</li>
+<li><font color="#003366"><b>降低管理成本︰</b></font>藉由遠端平台的建置，管理人員無需再千里迢迢的到各案場進行系統管理，有效的降低各專案的管理成本，同時藉由系統平台所提供的彙整報表，可隨時進行不同緯度的資料分析，提升管理效率。</li>
+<li><font color="#003366"><b>完整的效益分析︰</b></font>此管理平台除了各案場的單一資訊外，也可將不同案場的資訊交叉比對，不僅可藉此比較各案場的狀況，更可在統合規劃時， 提供完整的規劃藍圖，以助作效益分析。</li>
+</ul>
+					</div>
+
+				</div>
+				<!-- Tabs end -->
+            </div>
+            <!-- Product content end-->
+            
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about.html" target="_self">關於網星</a></dt>
+					<dd><a href="achievements.html" target="_self">大事記</a></dd>
+					<dd><a href="milestones.html" target="_self">重要里程碑</a></dd>
+					<dd><a href="news.html" target="_self">最新消息</a></dd>
+					<dd><a href="customers.html" target="_self">客戶資料</a></dd>
+					<dd><a href="career.html" target="_self">人才招募</a></dd>
+					<dd><a href="contact.html" target="_self">聯絡資訊</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products.html" target="_self">產品資訊</a></dt>
+					<dd><a href="solarmonitor.html" target="_self">太陽能監控雲端平台</a></dd>
+                    <dd><a href="monitoring.html" target="_self">電子化服務效能管理</a></dd>
+                    <dd><a href="security.html" target="_self">資訊安全管理</a></dd>
+                    <dd><a href="professional.html" target="_self">專業資訊服務</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="services.html" target="_self">服務與解決方案</a></dt>
+					<dd><a href="banking.html" target="_self">金融業</a></dd>
+					<dd><a href="hi-tech.html" target="_self">高科技業</a></dd>
+					<dd><a href="government.html" target="_self">政府機構</a></dd>
+					<dd><a href="http://www.mit247.com" target="_blank">中小型企業</a></dd>
+      </dl>
+			
+            <dl>
+        <dt><a href="benchmark.html" target="_self">Benchmark</a></dt>
+		<dd><a href="benchmark.html" target="_self">網站效能指標</a></dd>
+		<dd><a href="description.html" target="_self">效能數據說明</a></dd>
+        <dd><a href="industry.html" target="_self">各行業的網站效能指標</a></dd>
+			
+      </dl>
+      
+      <dl>
+        <dt><a href="event_01.html" target="_self">活動訊息</a></dt>
+		<dd><a href="event_01.html" target="_self">網站效能測試</a></dd>
+		<dd><a href="event_02.html" target="_self">eB-Patrol產品試用</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap.html" target="_self">網站導覽</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+新竹辦公室 電話︰03-5600057 傳真︰03-5600059 新竹縣竹北市台元街36號1樓<br />
+台北辦公室 電話︰02-27932557 傳真︰02-27932587 台北市內湖區新湖一路128巷15號6樓
+</div>
+<div class="copyright">Copyright &copy; 2015 eBsuccess Co., Ltd. All right reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy.html">隱私權政策</a> | <a style="text-decoration: none"a href="terms.html">使用條款</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

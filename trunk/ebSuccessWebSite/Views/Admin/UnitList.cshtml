@@ -1,0 +1,27 @@
+﻿
+@model List<CommonResource.Models.PageUnit>
+@helper RenderUnitList(CommonResource.Models.PageUnit Unit)
+{
+    <div class="col-lg-6 col-sm-6">
+        <h3>@Unit.UnitName</h3>
+        <p>
+            <a class="btn btn-default" target="_blank" href="@Url.Action("EditUnit",new { id = @Unit.UnitId })" role="button" >管理內容 »</a> 
+            <a class="btn btn-default" target="_blank" href="@Url.Action("Page","Home",new { UnitId = @Unit.UnitId })" role="button">預覽 »</a> 
+            @if (Unit.Enable)
+            {
+                <button type="button" class="btn btn-info" onclick="EnableUnit(@Unit.UnitId,1);">關閉</button>
+            }
+            else
+            {
+                <button type="button" class="btn btn-danger" onclick="EnableUnit(@Unit.UnitId,2);">開啟</button>
+            }            
+            <button type="button" class="btn btn-info" onclick="DeleteUnit(@Unit.UnitId);">刪除</button>
+        </p>
+    </div>
+}
+
+@foreach (var oneUnit in Model)
+{
+    @RenderUnitList(oneUnit)
+}
+

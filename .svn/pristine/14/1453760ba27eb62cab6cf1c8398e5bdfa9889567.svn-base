@@ -1,0 +1,40 @@
+﻿
+@model List<CommonResource.Models.PageContent>
+
+@helper RenderSubPage(CommonResource.Models.PageContent PageContent)
+{
+    <tr align="center">
+        <td><a href="@Url.Action("Page","Home",new {UnitId = PageContent.UnitId,ContentId = PageContent.ContentId,PageId = PageContent.Id })" target="_blank">@PageContent.PageTitle</a></td>
+        <td>@PageContent.UpdateTime</td>
+        <td>@PageContent.Enable</td>
+        <td>
+            <a href="@Url.Action("PageContentModify", "Admin",new { pageContentId = PageContent.Id})" target="_blank" class="btn btn-success">編輯子頁面內容</a>         
+        </td>
+        <td><button type="button" class="btn btn-danger" onclick="Del(@PageContent.Id)">刪除</button></td>
+    </tr>
+}
+
+@if (Model.Count > 0)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr align="center" class="warning">
+                <td>子頁面(Sub Page)名稱</td>
+                <td>更新時間</td>
+                <td>顯示於前台</td>
+                <td>編輯</td>
+                <td>刪除</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var oneSubPage in Model)
+            {
+                @RenderSubPage(oneSubPage)
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div style="text-align:center;" >沒有任何子頁面(Sub Page)資料</div >
+}

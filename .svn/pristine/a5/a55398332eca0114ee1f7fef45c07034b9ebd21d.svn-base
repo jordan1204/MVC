@@ -1,0 +1,53 @@
+﻿
+@model List<ebSuccessWebSite.Models.NewsModel>
+@helper RenderNewsList(ebSuccessWebSite.Models.NewsModel news)
+{
+    <tr align="center">
+        <td>@news.NewsTitle</td>
+        <td>
+            @{
+            if (news.FileId != 0)
+            {
+                <a href="@Url.Action("GetFile", "Common",new {fileId = news.FileId })">下載檔案</a>
+            }
+            else
+            {
+                var text = "無附加檔案";
+                @text
+            }
+        }
+    </td>
+    <td>@news.PublishedStatus</td>
+    <td>@news.NewsDate</td>
+    <td>
+        <a href="@Url.Action("GetNews","Admin",new { newsId = news.Id })" class="btn btn-success" target="_blank">修改</a>
+    </td>
+    <td><button type="button" class="btn btn-danger" onclick="Del(@news.Id)">刪除</button></td>
+</tr>
+}
+
+@if (Model.Count > 0)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr align="center" class="warning">
+                <td>新聞標題</td>
+                <td>附加檔案</td>
+                <td>已發布</td>
+                <td>最後更新時間</td>
+                <td>修改</td>
+                <td>刪除</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var oneNews in Model)
+            {
+                @RenderNewsList(oneNews)
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div style="text-align:center;">沒有任何新聞</div>
+}

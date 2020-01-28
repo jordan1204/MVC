@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>eBsuccess | Security Management</title>
+<meta name="keywords" content="eBsuccess，solar PV monitoring, solar monitoring, performance management, load testing, security management" />
+<meta name="description" content="Emulates end-user experience proactively, measuring from multiple locations 24x7. Enterprises are able to identify the cause of performance issues precisely, and resolve the problems effectively. Also, we provide professional technical support and service in analyzing performance issues." />
+<meta name="viewport" content="width=1200">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="css/layout.css"/>
+<script src="js/jquery-1.7.2.min.js" ></script>
+<script src="js/jflow.plus.js" ></script>
+
+
+
+<script src="js/bootstrap.js"></script>
+
+
+
+
+
+
+
+<script>
+	$(document).ready(function(){
+	    $("#myController").jFlow({
+			controller: ".control", // must be class, use . sign
+			slideWrapper : "#jFlowSlider", // must be id, use # sign
+			slides: "#slider",  // the div where all your sliding divs are nested in
+			selectedWrapper: "jFlowSelected",  // just pure text, no sign
+			width: "960px",  // this is the width for the content-slider
+			height: "385px",  // this is the height for the content-slider
+			duration: 400,  // time in miliseconds to transition one slide
+			prev: ".slidprev", // must be class, use . sign
+			next: ".slidnext", // must be class, use . sign
+			auto: true
+    });
+  });
+</script>
+
+
+<!--<link href="bootstrap.css" rel="stylesheet" type="text/css" /> -->
+</head>
+<body>
+<div id="wrap">
+  <div id="header_wrap">
+    <div id="header">
+      
+      <div class="logo"><a href="home.html"><img src="images/logoeng.bmp" alt="eBsuccess Solutions Inc." width="312" height="75" border="0" title="eBsuccess Solutions Inc." /></a></div>
+      
+      <div id="navi_wrap"> 
+        <div id="sub_navi_wrap">
+          <div id="sub_navi">
+            <ul>
+              <li><a href="sitemap_en.html">Sitemap</a></li>
+              <li><a href="contact_en.html">Contact</a></li>
+              <li><a href="news_en.html">News</a></li>
+              <li><a href="products_en.html">Products</a></li>
+              <li><a href="about_en.html">About us</a></li>
+            </ul>
+          </div>
+          
+          <!-- Skype Buttons code -->
+<div id="Skyp​​eButton">
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_ID">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "dropdown",
+      "element": "SkypeButton_Call_ID",
+      "participants": ["eb_marketing1"]
+    });
+  </script>
+</div>
+</div>
+<!-- Skype Buttons code end -->   
+       
+          <div id="languageroll">
+            <p>Language</p>
+		      <ul>
+			     <li><a href="http://www.ebsuccess.com">繁體中文</a></li>
+			     <li><a href="#">日本語</a></li>
+		      </ul>
+          </div>
+        </div>
+        <div id="navi">
+          <ul>
+            <li><a href="solarmonitor_en.html" title="Solar Monitoring System">Solar Monitoring</a></li>
+			<li><a href="security_en.html" title="Security Management">Security Management</a></li>
+			<li><a href="monitoring_en.html" title="Performance management">Performance management</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+<div id="pro_in_wrap">
+          <div id="content_left">
+            <div id="assinavi">
+              <h1>Products</h1>
+              <dl>
+                <dt><a href="solarmonitor_en.html">Solar Monitoring System</a></dt>     
+                <dt class="on"><a href="monitoring_en.html">Performance monitoring & Management</a></dt>
+				<span>
+                <dd class="on"><a href="monitoring_e01.html">Performance monitoring</a></dd>
+                <dd><a href="#">Realistic load testing</a></dd>
+                </span>                 
+                <dt><a href="security_en.html">Security Management</a></dt>     
+                <dt><a href="#">Professional Services</a></dt>
+              </dl>
+			&nbsp;<p><a href="mailto:marketing@ebsuccess.com">
+<img src="images/contact_eng.png"></a>                 
+            </div>
+         
+          </div>
+          
+          <!--Banner -->
+          <div id="content_right_banner"><img src="images/product_banner_en.jpg" width="700" height="180" /></div>
+          <!--Banner end -->
+          
+      
+<div id="content_right">
+            <div id="guild">
+              <ul class="root">
+                <span class="home"><a href="home.html"></a></span>
+                <li><a href="products_en.html">Products</a></li>
+                <li><a href="monitoring_en.html">Performance Monitoring & Management</a></li>
+                <li>Performance Monitoring</li>
+              </ul>
+            </div>
+            
+            <h2>MonitorSP<font face="微軟正黑體">™</font>  Performance Monitoring</h2>
+            
+            
+                        <!-- Product content -->
+            <div class="product_content">
+            				
+                            <!-- Tabs -->
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+					<li class=""><a href="#archit" data-toggle="tab">Highlights</a></li>
+					<li class=""><a href="#features" data-toggle="tab">Features</a></li>
+					<li class=""><a href="#benefits" data-toggle="tab">Benefits</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane fade active in" id="overview">
+						<p>As enterprises run its business operation in the Internet, Web performance directly impacts the e-Business performance. So, Web performance is the benchmark of your e-Business competitive advantage. In order to maintain successful e-Business and meet the service level agreement, enterprise needs a tool to ensure Web performance. eBsuccess Solutions Inc provides MonitorSP Prime to help you manage and control your Web performance from end-users perspective.</p>
+						<p>&nbsp;</p>
+
+<p>MonitorSP Prime ensures the reliability, availability and response time of your Web application. It emulates end-user experience proactively, measuring from multiple locations around the world 24 hours a day, seven days a week. Enterprises can do scalability test before deployment, and continue performance monitoring and tuning even after. Also, e-Business applications and content changes are frequently. With MonitorSP Prime, enterprises can address Web application issues effectively and consistently provide users with the best performance experience. MonitorSP Prime makes your e-Business portal manageable and controllable, as to protect your investment and revenue.</p>
+						<p align="center">
+						<img border="0" src="images/product/msp001.gif" width="400" height="407"></p>
+						<p align="center">
+		</p>
+					</div>
+
+					<div class="tab-pane fade" id="archit">
+						<p>
+<ul class="point">
+<li>Offer a comprehensive solution to manage and control your Web application performance.</li>
+<li>Provide a complete insight of system, network and application analysis to managers at anywhere, anytime.</li>
+<li>Create an objective and quantitative indicator to identify the root causes and bottlenecks of Web application performance.</li>
+<li>Reduce the workload and time of problems detection.</li>
+<li>Ensure the cost-effectiveness and productivity of Web applications.</li>
+</ul>	
+                        <p align="left">&nbsp;</p>
+						</p>
+					</div>
+
+<div class="tab-pane fade" id="features">
+						<p>
+<ul class="point">
+<li>From end-user experience and location access, MonitorSP Prime ensures the 24x7 availability, reliability and response time of your Web applications.</li>
+</ul>
+						<p align="center">
+						<img border="0" src="images/product/mspreport3.jpg" width="350" height="234"></p>
+						<ul class="point">
+<li>MonitorSP Prime agenda recorder provides a user-friendly simulation tool, which allows you to proactively record end-user behavior as an agenda.</li>
+<li>Analyze the time factors of Web page including DNS lookup time, redirection time, connection time, response time and content download time.</li>
+<li>MonitorSP Prime enables you to diagnose the root cause of problems efficiently and validate content delivery.</li>
+</ul>
+						<p align="center">
+						<img border="0" src="images/product/mspreport1.jpg" width="350" height="234"></p>
+						<ul class="point">
+<li>Track the performance of all Web page components by monitoring the underlying elements of Web applications.</li>
+<li>Establish proactive event-driven alert functions include Content Validation, Failure Check, and Performance Problem etc.</li>
+</ul>						
+						</p>
+						
+		</p>
+					</div>
+
+
+					<div class="tab-pane fade" id="benefits">
+						<p>
+<ul class="point">
+<li>Enhance the business competitive advantage in the marketplace by maintaining high-quality Web applications.</li>
+<li>Detect, isolate and resolve the problems efficiently before users experience.</li>
+<li>Facilitate capacity planning and change management by a comprehensive performance analysis.</li>
+<li>Shorten a great deal of time in pinpoint performance bottleneck by Web performance report.</li>
+<li>Provide alert to react the problem at the first time and to achieve operation excellence.</li>
+<li>Assure user’s satisfaction and loyalty by meeting service level of agreement.</li>
+<li>Ensure the cost-effectiveness of Web applications by comprehensive performance analysis.</li>
+</ul>
+					</div>
+
+				</div>
+				<!-- Tabs end -->
+            </div>
+            <!-- Product content end-->
+            
+          </div>
+  </div>
+
+  
+  <div id="footer_wrap">
+  <div id="footer">
+      <dl>
+        <dt><a href="about_en.html" target="_self">About eBsuccess</a></dt>
+					<dd><a href="achievements_en.html" target="_self">Achievements</a></dd>
+					<dd><a href="news_en.html" target="_self">News</a></dd>
+					<dd><a href="contact_en.html" target="_self">Contact us</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="products_en.html" target="_self">Products</a></dt>
+					<dd><a href="solarmonitor_en.html" target="_self">Solar Monitoring</a></dd>
+                    <dd><a href="monitoring_en.html" target="_self">Performance Management</a></dd>
+                    <dd><a href="security_en.html" target="_self">Security Management</a></dd>
+                    <dd><a href="#" target="_self">Professional Services</a></dd>
+      </dl>
+			
+      <dl>
+        <dt><a href="#" target="_self">Solutions</a></dt>
+					<dd><a href="#" target="_self">Financial Services</a></dd>
+					<dd><a href="#" target="_self">High Technology</a></dd>
+					<dd><a href="#" target="_self">Government</a></dd>
+      </dl>
+     
+      <dl>
+        <dt><a href="#" target="_self">Events</a></dt>
+		<dd><a href="#" target="_self">Test your website</a></dd>
+		<dd><a href="#" target="_self">eB-Patrol free trial</a></dd>
+        <dd></dd>        
+        <dt><a href="sitemap_en.html" target="_self">Sitemap</a></dt>
+      </dl>
+      
+    </div>
+</div>
+  
+<div id="footer_copy_wrap">
+<div id="footer_copy">
+<div class="statement">
+Call us : +886-2-27932557 | +886-3-5600057 <br />
+Email:<a href="mailto:marketing@ebsuccess.com"> <font color="#BFBFBF">
+marketing@ebsuccess.com</font></a></div>
+<div class="copyright">Copyright &copy; 2016 eBsuccess Solutions Inc. All rights reserved.</div>
+<div class="copyright"><a style="text-decoration: none"a href="privacy_en.html">Privacy Policy</a> | <a style="text-decoration: none"a href="terms_en.html">Terms of Use</a></div>
+</div>
+</div>
+
+</div>
+</body>
+</html>

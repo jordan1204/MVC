@@ -1,0 +1,26 @@
+﻿
+@model List<CommonResource.Models.PageContent_Mapping>
+@helper RenderUnitList(CommonResource.Models.PageContent_Mapping Page)
+{
+    <div class="col-lg-6 col-sm-6">
+        <h3>@Page.ContentName</h3>   
+        <p>
+            <a class="btn btn-default" target="_blank" href="@Url.Action("EditPageContent",new { contentId = Page.ContentId, unitId = Page.UnitId })" role="button" >管理內容 »</a> 
+            <a class="btn btn-default" target="_blank" href="@Url.Action("Page","Home",new { UnitId = Page.UnitId,ContentId = Page.ContentId })" role="button">預覽 »</a> 
+            @if (Page.Enable)
+            {
+                <button type="button" class="btn btn-info" onclick="EnablePage(@Page.ContentId,1);">關閉</button>
+            }
+            else
+            {
+                <button type="button" class="btn btn-danger" onclick="EnablePage(@Page.ContentId,2);">開啟</button>
+            }
+            <button type="button" class="btn btn-info" onclick="DeletePage(@Page.ContentId);">刪除</button>
+        </p>
+    </div>
+}
+
+@foreach (var onePage in Model)
+{
+    @RenderUnitList(onePage)
+}

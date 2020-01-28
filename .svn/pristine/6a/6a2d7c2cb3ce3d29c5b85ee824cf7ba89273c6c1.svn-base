@@ -1,0 +1,37 @@
+﻿@model List<ebSuccessWebSite.Models.BannerModel>
+
+@helper RenderCover(ebSuccessWebSite.Models.BannerModel banner,int index)
+{
+    string imageBase64 = Convert.ToBase64String(banner.Picture);
+    string imageSrc = string.Format("data:" + banner.MimeType + ";base64,{0}", imageBase64);
+
+    <div id="slide_@{@index}">
+        <a href="@banner.Url">
+            <img src="@imageSrc" alt="@banner.Alt" title="@banner.Name" />
+        </a>
+    </div>
+}
+
+<div class="banner">
+    <div class="banner_content">
+        <div class="slidprev"><span>Prev</span></div>
+        <div class="slidnext"><span>Next</span></div>
+        <div id="slider">
+            @{
+                var index = 1;
+                foreach (var oneBanner in Model)
+                {
+                    @RenderCover(oneBanner, index)
+                    index++;
+                }
+            }  
+        </div>
+        <div id="myController">
+            @for (int i = 1; i < index; i++)
+            {
+                <div class="control"><span>@i</span></div>
+            }     
+        </div>
+    </div>
+</div>
+

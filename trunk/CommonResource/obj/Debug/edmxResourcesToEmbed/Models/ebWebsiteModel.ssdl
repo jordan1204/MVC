@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ebWebsiteModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CustomerTrial_Form">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Telephone" Type="nvarchar" MaxLength="50" />
+    <Property Name="Cellphone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Message" Type="nvarchar(max)" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="CustomerTrial_Info">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="InfoContent" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ecommerce">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="HtmlContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaGenerator" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="File">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="File" Type="varbinary(max)" Nullable="false" />
+    <Property Name="MimeType" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="FooterInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="GoogleAnalytics" Type="nvarchar(max)" />
+    <Property Name="TaipeiContactInfo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HsinchuContactInfo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CopyrightInfo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="PrivacyUrl" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TermUrl" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HomeBanner">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" />
+    <Property Name="Alt" Type="nvarchar(max)" />
+    <Property Name="FileId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MainMenu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FuntionName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ParentId" Type="int" Nullable="false" />
+    <Property Name="IsRoot" Type="bit" Nullable="false" />
+    <Property Name="Url" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Meta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PageId" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" />
+    <Property Name="Keywords" Type="nvarchar(max)" />
+    <Property Name="Generator" Type="nvarchar(max)" />
+    <Property Name="CoverImage" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="Abstract" Type="nvarchar(max)" />
+    <Property Name="NewsContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="FileId" Type="int" />
+    <Property Name="DateTime" Type="datetime" Nullable="false" />
+    <Property Name="Published" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PageContent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnitId" Type="int" Nullable="false" />
+    <Property Name="ContentId" Type="int" Nullable="false" />
+    <Property Name="PageTitle" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HtmlContent" Type="nvarchar(max)" />
+    <Property Name="UpdateTime" Type="datetime" Nullable="false" />
+    <Property Name="DataOrder" Type="int" Nullable="false" />
+    <Property Name="Enable" Type="bit" Nullable="false" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PageContent_Mapping">
+    <Key>
+      <PropertyRef Name="ContentId" />
+    </Key>
+    <Property Name="ContentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnitId" Type="int" Nullable="false" />
+    <Property Name="ContentName" Type="nvarchar(max)" />
+    <Property Name="Enable" Type="bit" Nullable="false" />
+    <Property Name="MainPage" Type="bit" Nullable="false" />
+    <Property Name="HtmlContent" Type="nvarchar(max)" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="PageUnit">
+    <Key>
+      <PropertyRef Name="UnitId" />
+    </Key>
+    <Property Name="UnitId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UnitName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+    <Property Name="HtmlContent" Type="nvarchar(max)" />
+    <Property Name="Enable" Type="bit" Nullable="false" />
+    <Property Name="BannerId" Type="int" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Trial" Type="bit" />
+  </EntityType>
+  <EntityType Name="TemporaryPageContent">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ActionName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="HtmlContent" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MetaDescription" Type="nvarchar(max)" />
+    <Property Name="MetaKeywords" Type="nvarchar(max)" />
+    <Property Name="MetaTitle" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="TopMenu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FunctionName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Controller" Type="nvarchar(max)" />
+    <Property Name="Action" Type="nvarchar(max)" />
+    <Property Name="CustomUrl" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ebWebsiteModelStoreContainer">
+    <EntitySet Name="CustomerTrial_Form" EntityType="Self.CustomerTrial_Form" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CustomerTrial_Info" EntityType="Self.CustomerTrial_Info" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ecommerce" EntityType="Self.Ecommerce" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="File" EntityType="Self.File" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FooterInfo" EntityType="Self.FooterInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HomeBanner" EntityType="Self.HomeBanner" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MainMenu" EntityType="Self.MainMenu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Meta" EntityType="Self.Meta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="News" EntityType="Self.News" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PageContent" EntityType="Self.PageContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PageContent_Mapping" EntityType="Self.PageContent_Mapping" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PageUnit" EntityType="Self.PageUnit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TemporaryPageContent" EntityType="Self.TemporaryPageContent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TopMenu" EntityType="Self.TopMenu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

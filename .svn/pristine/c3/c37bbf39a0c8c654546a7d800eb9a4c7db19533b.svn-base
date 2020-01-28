@@ -1,0 +1,292 @@
+﻿@model ebSuccessWebSite.Models.PageAdminModel
+
+@Styles.Render("~/Content/bootstrapStyle")
+@Scripts.Render("~/bundles/bootstrap")
+
+@{
+    string imageSrc = "";
+    if (Model.PictureData != null)
+    {
+        string imageBase64 = Convert.ToBase64String(Model.PictureData);
+        imageSrc = string.Format("data:" + Model.MimeType + ";base64,{0}", imageBase64);
+    }
+
+}
+<style>
+    .editor-content{
+        width:1000px;
+        margin: 0 auto;
+    }
+    .menu{
+        padding-top:50px;
+        width:980px;
+        margin:0 auto;
+    }
+    #languageroll {
+        margin-top: 34px !important;
+    }
+    #sub_menu {
+        margin-top: 34px !important;
+    }
+    h1 {
+    animation : none;
+    animation-delay : 0;
+    animation-direction : normal;
+    animation-duration : 0;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : none;
+    column-span : 1;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : inherit;
+    font-size : medium;
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 0;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    /* May need to alter quotes for different locales (e.g fr) */
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 0;
+    width : auto;
+    word-spacing : normal;
+    z-index : auto;
+    /* basic modern patch */
+    all: initial;
+    all: unset;
+}
+</style>
+<div class="editor-content">
+    @using (Html.BeginForm("EditUnit", "Admin", FormMethod.Post,new { @enctype = "multipart/form-data" }))
+    {
+        @Html.HiddenFor(m => m.UnitId)
+        <div class="form-group">
+            <label for="Name">單元名稱</label>
+            <input type="text" class="form-control" id="UnitName" name="UnitName" placeholder="請輸入單元名稱" value="@Model.UnitName">
+        </div>
+            <div class="form-group">
+                <label for="Url">Meta Keywords</label>
+                <input type="text" class="form-control" id="MetaKeywords" name="MetaKeywords" placeholder="請輸入Meta Keywords內容" value="@Model.MetaKeywords">
+            </div>
+            <div class="form-group">
+                <label for="Url">Meta Description</label>
+                <input type="text" class="form-control" id="MetaDescription" name="MetaDescription" placeholder="請輸入Meta Description內容" value="@Model.MetaDescription">
+            </div>
+            <div class="form-group">
+                <label for="Url">Meta Title</label>
+                <input type="text" class="form-control" id="MetaTitle" name="MetaTitle" placeholder="請輸入Meta Title內容" value="@Model.MetaTitle">
+            </div>            
+                if (Model.PictureData != null)
+                {
+                    <div class="form-group">
+                        <label for="Url">原始圖檔</label>
+                        <br />
+                        <img src="@imageSrc" width="200" />
+                    </div>
+                }            
+            <div class="form-group">
+                <label for="Picture">上傳Banner</label>           
+                <input type="file" id="Picture" name="Picture">
+            </div>
+            <div class="form-group">
+                <label for="Url">單元介紹內容(無輸入即直接導入單元預設頁)</label>
+                @Html.TextAreaFor(m => m.HtmlContent, new { @class = "ckeditor" })
+            </div>
+            <hr>
+            <div class="form-group" align="center">
+                <button type="submit" class="btn btn-success">儲存修改</button>
+            </div>
+    }
+</div>
+<script src="~/Scripts/ckeditor/ckeditor.js"></script>
+<div class="menu">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            頁面管理
+            <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal" onclick="AddPage();">新增頁面</a>
+        </div>
+        <div class="panel-body">
+           @Html.Action("PageList", "Admin",new {UnitId = Model.UnitId })    
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="width:500px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    CKEDITOR.replace('HtmlContent', { filebrowserImageUploadUrl: '@Url.Action("UploadPicture", "Home")', extraAllowedContent: 'span(*);ul;li;table;tr;td;style;*[id];*(*);*{*}', height: '300' });
+
+    function RefreshPage() {
+        location.reload();
+    }
+    function AddPage()
+    {
+        $.post("@Url.Action("AddPageForm", "Admin")",{UnitId:@Model.UnitId}, function (data)
+        {
+            $("#myModalLabel").html(data.Title);
+            $(".modal-body").html(data.Body);
+          
+        },"json");
+    }
+    $('#myModal').on('hide.bs.modal', function (e) {
+        $("#myModalLabel").html("");
+        $(".modal-body").html("");
+    });
+
+    function EnablePage(pageId,option) {
+        $.post("@Url.Action("EnablePage", "Admin")", { PageId: pageId, Option: option }, function (data)
+    {         
+        alert(data.Message);
+        if (data.Success)
+            RefreshPage();
+    },"json");
+    }
+    function DeletePage(pageId) {
+        $.post("@Url.Action("DeletePage", "Admin")", { PageId: pageId}, function (data)
+    {         
+        alert(data.Message);
+        if (data.Success)
+            RefreshPage();
+    },"json");
+    }
+</script>
