@@ -19,6 +19,5 @@ C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFra
 C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.resources.dll
 C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
-C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.csprojResolveAssemblyReference.cache
 C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.dll
 C:\Users\a0933\Desktop\ebSuccessWebsite\trunk\CommonResource\obj\Debug\CommonResource.pdb

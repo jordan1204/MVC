@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>網星資訊股份有限公司</title>
+    <title>匯融資訊股份有限公司</title>
     @{
         var getPageIdParameter = ViewContext.RouteData.Values.Where(x => x.Value.ToString() == "Page").Any();
         if (getPageIdParameter)
@@ -36,13 +36,51 @@
         ga('create', 'UA-3804798-1', 'auto');
         ga('send', 'pageview');
     </script>
-
+    <style>
+        #contact {
+            display: grid;
+            border-style: solid;
+            border-width: thin;
+            border-radius: 15px;
+            width: 80px;
+            grid-template-rows: 1fr 1fr 1fr;
+            height: 250px;
+            z-index: 1001;
+            margin-top:40px;
+            position:fixed;
+            right:0;
+            text-align:center;
+            padding-top:20px;
+        }
+            .closed{
+            background-color:white;
+            line-height: 20px;
+            text-align: center;
+            height: 20px;
+            font-size: 18px;
+            top: -12px;
+            right: 29px;
+            position: absolute;
+        }
+            .closed::before {
+            content: "\1F340";
+        }
+        #head {
+            font-size: 20px;
+        }
+    </style>
 </head>
 
 <body>
 
     @Html.Partial("Menu")
     <div class="site-content">
+        <div id="contact">
+            <span class="closed"></span>
+            <a href="https://line.me/zh-hant/" target="_blank"><img src="~/Content/images/Line-messenger-app-logo.png" width="50" height="50" class="contact_pos" /></a>
+            <a href="https://zh-tw.facebook.com/" target="_blank"><img src="~/Content/images/fb.png" width="50" height="50" class="contact_pos" /></a>
+            <a href="https://www.skype.com/zh-Hant/" target="_blank"><img src="~/Content/images/skype.png" width="50" height="50" class="contact_pos" /></a>
+        </div>
         @RenderBody()
     </div>  
     @Html.Partial("Footer")

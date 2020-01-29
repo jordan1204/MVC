@@ -1,12 +1,12 @@
-﻿html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+﻿html, body, div, p,dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
 	margin: 0;
 	padding: 0;
 	-webkit-text-size-adjust: none;
 	font-family: \5FAE\8EDF\6B63\9ED1\9AD4, \65B0\7D30\660E\9AD4, "Microsoft JhengHei", "微軟正黑體", Arial, Helvetica, sans-serif;
 }
-	
+
 img { border: 0 none; vertical-align: top; font-weight: normal; font-size: 100%; }
-ul, li { /*list-style-type: none;*/ }
+
 
 body, input, select, button, textarea {
 	font-size: 15px;
@@ -382,7 +382,7 @@ a:focus { outline: none; }
 /*--------------- AssiNavi ---------------------*/
 
 #assinavi {
-    width:auto
+    width:auto;
 	width:218px;
 	float: left;
 	display: block;
@@ -649,7 +649,9 @@ a:focus { outline: none; }
 	color:#6E6E6E;
 	text-decoration: none;
 }
-
+.about_content > div{
+    font-size:20px
+}
 
 /*--------------- News page ---------------------*/
 
